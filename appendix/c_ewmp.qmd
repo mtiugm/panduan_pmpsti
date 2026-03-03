@@ -1,5 +1,9 @@
 # Rata-Rata Beban Dosen PMPSTI per Semester
 
+```{=latex}
+\begin{landscape}
+```
+
 ```{r}
 #| label: tbl-ewmp-dtps
 #| tbl-cap: "Ekuivalen Waktu Mengajar Penuh (EWMP) DTPS"
@@ -69,11 +73,22 @@ if (knitr::is_html_output()) {
     align     = align_vec
   ) |>
     kable_styling(
-      latex_options = c("striped", "repeat_header", "scale_down"),
-      font_size = 7
+      latex_options = c("striped", "repeat_header", "scale_down")
     ) |>
-    column_spec(1, width = "0.5cm") |>
-    column_spec(2, width = "4cm")
+    column_spec(1, width = "0.6cm") |>
+    column_spec(2, width = "4.3cm") |>
+    column_spec(3, width = "1.5cm") |>
+    column_spec(4, width = "1.5cm") |>
+    column_spec(5, width = "1.5cm") |>
+    column_spec(6, width = "1.4cm") |>
+    column_spec(7, width = "1.4cm") |>
+    column_spec(8, width = "1.5cm") |>
+    column_spec(9, width = "1.4cm") |>
+    column_spec(10, width = "1.4cm")
 
 }
+```
+
+```{=latex}
+\end{landscape}
 ```

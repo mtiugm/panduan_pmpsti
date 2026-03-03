@@ -129,11 +129,11 @@ if (is_pdf) {
       booktabs = TRUE,
       escape   = FALSE,
       align = c(
-        ">{\\raggedright\\arraybackslash}p{0.43\\textwidth}",
-        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
-        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
-        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
-        ">{\\centering\\arraybackslash}p{0.11\\textwidth}"
+        ">{\\raggedright\\arraybackslash}p{0.39\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.12\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.12\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.12\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.12\\textwidth}"
       )
   ) %>%
     kable_styling(

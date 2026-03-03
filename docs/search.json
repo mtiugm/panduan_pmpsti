@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Buku Panduan Akademik",
     "section": "",
-    "text": "Buku Panduan Akademik\nThis page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.",
+    "text": "Beranda\nThis page contains an outline of the content of this book. You can click on the links to navigate to the corresponding sections.",
     "crumbs": [
-      "Buku Panduan Akademik"
+      "Beranda"
     ]
   },
   {
@@ -47,6 +47,16 @@
     "text": "Kurikulum Program Magister Program Studi Teknologi Informasi (PMPSTI) 2022 Versi Revisi-2 merupakan pembaharuan kurikulum PMPSTI 2022 Versi Revisi-1 dengan mempertimbangkan perubahan Peraturan Menteri Pendidikan dan Kebudayaan No 53 tahun 2023 ke Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia No. 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi, dan Peraturan Rektor No 23 tahun 2024 serta beberapa aspek dan masukan pemangku kepentingan. Pertama, kesinambungan dengan Program Sarjana Program Studi Teknologi Informasi (PSPSTIF). Kesinambungan yang dimaksud adalah adanya kesesuaian konsentrasi PMPSTI yang merupakan spesialisasi dari jalur karir (career path) yang ada di PSPSTIF. Aspek kedua, Kurikulum PMPSTI 2022 Versi Revisi-2 juga berkaca pada Kurikulum PSPSTIF yang telah lebih dahulu diperbarui pada tahun 2022 yang mengacu pada proses akreditasi internasional Indonesian Accreditation Board for Engineering Education (IABEE). Akreditasi tersebut menyatakan bahwa penguasaan ilmu dasar harus diperkuat pada bidang ilmu teknologi informasi untuk dapat beradaptasi pada perubahan cepat khususnya pada ilmu teknologi informasi dan Industry 4.0.\nAkhir kata tak ada gading yang tak retak, tentu saja banyak sekali kekurangan di dalam usulan Kurikulum 2022 Versi Revisi-2 ini. Sebagai bagian dari semangat outcome-based education (OBE), PMPSTI bertekad untuk selalu memperbaiki diri terhadap kekurangan yang ada di dalam usulan kurikulum ini. Pengurus berterima kasih kepada semua pihak yang membantu menyelesaikan usulan kurikulum 2022 Versi Revisi-2 PMPSTI terutama kepada tim kurikulum PMPSTI dan Departemen Teknik Elektro dan Teknologi Informasi (DTETI). Semoga Allah SWT membalas dengan balasan yang lebih baik.\n\nYogyakarta, 19 November 2025\nKetua Departemen\n\nProf. Ir. Hanung Adi Nugroho, S.T., M.Eng., Ph.D., IPM., SMIEEE.",
     "crumbs": [
       "Kata Pengantar"
+    ]
+  },
+  {
+    "objectID": "front/c_glossary.html",
+    "href": "front/c_glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "ABET\n\nAccreditation Board for Engineering and Technology\n\nBAN-PT\n\nBadan Akreditasi Nasional Perguruan Tinggi\n\nCPL\n\nCapaian Pembelajaran Lulusan\n\nCPMK\n\nCapaian Pembelajaran Mata Kuliah\n\nDTETI\n\nDepartemen Teknik Elektro dan Teknologi Informasi\n\nFT\n\nFakultas Teknik\n\nIABEE\n\nIndonesian Accreditation Board for Engineering\n\nKKNI\n\nStandar Nasional Pendidikan Tinggi\n\nM.Eng.\n\nMaster of Engineering\n\nOBE\n\nOutcome-Based Education\n\nPKM\n\nPengabdian Kepada Masyarakat\n\nPMPSTI\n\nProgram Magister Program Studi Teknologi Informasi\n\nPSPSTIF\n\nProgram Sarjana Program Studi Teknologi Informasi\n\nSNPT\n\nStandar Nasional Pendidikan Tinggi\n\nTIK\n\nTeknologi Informasi dan Komunikasi\n\nUGM\n\nUniversitas Gadjah Mada",
+    "crumbs": [
+      "Glossary"
     ]
   },
   {
@@ -261,6 +271,72 @@
     "crumbs": [
       "Lampiran",
       "<span class='chapter-number'>D</span>  <span class='chapter-title'>Daftar Tenaga Kependidikan Departemen Teknik Elektro dan Teknologi Informasi, FT UGM</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/e_facilities.html",
+    "href": "appendix/e_facilities.html",
+    "title": "Lampiran E — Sarana dan Prasarana Pembelajaran",
+    "section": "",
+    "text": "Fasilitas Pustaka\nFasilitas yang dimiliki meliputi buku teks, e-books, karya ilmiah, prosiding, dan jurnal dengan total lebih dari 100 eksemplar. Selain fasilitas putaka di level departemen, juga terdapat Perpustakaan Fakultas Teknik di level fakultas yang memberikan layanan khas berbentuk kegiatan, konsultasi, diskusi dan semacamnya untuk mendukung kemampuan mahasiswa mengikuti kegiatan akademik selama perkuliahan. Beberapa kegiatan rutin yang dilaksanakan adalah:\nSelain itu, juga terdapat fasilitas pendukung untuk kepustakaan dan penulisan jurnal yang sangat relevan dengan kebutuhan mahasiswa PMPSTI antara lain",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Sarana dan Prasarana Pembelajaran</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/e_facilities.html#fasilitas-pustaka",
+    "href": "appendix/e_facilities.html#fasilitas-pustaka",
+    "title": "Lampiran E — Sarana dan Prasarana Pembelajaran",
+    "section": "",
+    "text": "Pelatihan manajemen dokumen ilmiah menggunakan Zotero dan Mendeley\nPelatihan menulis dengan LyX\nPelatihan membuat presentasi dengan Prezi\nDiskusi bersama pakar dalam berbagai tema, yaitu: plagiat, jurnal internasional, beasiswa\nBekerjasama dengan ECC (Engineering Career Center) UGM untuk menyelenggarakan berbagai pelatihan softskill\n\n\n\nFasilitas artikel ilmiah untuk artikel internasional elektronik seperti IEEE, Elsevier dan Springer\nSoftware pengecekan plagiarism (Turnitin)\nSoftware pengecekan grammar (Grammarly)\nBuku dan referensi ilmiah di perpustakaan fakultas Tekni",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Sarana dan Prasarana Pembelajaran</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/e_facilities.html#peralatan-laboratorium",
+    "href": "appendix/e_facilities.html#peralatan-laboratorium",
+    "title": "Lampiran E — Sarana dan Prasarana Pembelajaran",
+    "section": "Peralatan Laboratorium",
+    "text": "Peralatan Laboratorium\n\n\n\n\n\n\nGambar E.1: Lab Jaringan Komputer, UGM-Honeywell Connected Laboratory, Lab Schneider, dan Lab Cisco.\n\n\n\nUntuk penunjang pembelajaran, penelitian dan pengabdian kepada masyarakat, terdapat 13 laboratorium di departemen dengan peralatan dan teknologi yang mutakhir yaitu Lab. Elektronika Dasar, Lab. Listrik Dasar, Lab. Instalasi, Lab. Teknik Tegangan Tinggi, Lab. Sistem Elektronis, Lab. Sistem Digital, Lab. Telekomunikasi dan Sistem Frekuensi, Lab. Instrumentasi dan Kendali, Lab. Elektronika Lanjut, Lab. Informatika dan Komputer, Lab. Jaringan Komputer dan Aplikasi Terdistribusi, Lab. Teknik Tenaga Listrik, serta Lab. Transmisi dan Distribusi. Selain itu, juga terdapat 6 laboratorium kerjasama dengan industri, yaitu Lab. Cisco Networking Academy, Lab. Microsoft Innovation Center, Lab. Schneider, UGM-Honeywell Connected Laboratory, Lab. Rolls-Royce, I-Green Laboratory Infineon UGM, serta 1 buah laboratorium khusus Aritificial Inteliigence bernama UGM AI Center.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Sarana dan Prasarana Pembelajaran</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/e_facilities.html#kecukupan-dan-aksesibilitas-prasarana",
+    "href": "appendix/e_facilities.html#kecukupan-dan-aksesibilitas-prasarana",
+    "title": "Lampiran E — Sarana dan Prasarana Pembelajaran",
+    "section": "Kecukupan dan Aksesibilitas Prasarana",
+    "text": "Kecukupan dan Aksesibilitas Prasarana\nSelain memiliki sarana yang memadai, departemen juga dilengkapi dengan prasarana penunjang yang memadai. DTETI memiliki gedung 3 lantai yang dilengkapi dengan ruang perkuliahan, perpustakaan, serta co-working space yang ditata sesuai dengan tuntutan perkembangan zaman serta dilengkapi dengan teknologi informasi, akses internet berbasis wifi, dan sarana multimedia yang memadai. Selain itu, pembangunan gedung Smart Green Learning Centre (SGLC) dan Education Research and Inovation Centre (ERIC) di lingkungan fakultas juga diharapkan mampu menunjang kegiatan akademik mahasiswa, khususnya mahasiswa PMPSTI.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Sarana dan Prasarana Pembelajaran</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/f_org.html",
+    "href": "appendix/f_org.html",
+    "title": "Lampiran F — Pengelolaan Program Studi",
+    "section": "",
+    "text": "PMPSTI dikelola di level Departemen, bersamaan dengan lima program studi lain (Program Sarjana PS Teknik Elektro, Program Sarjana PS Teknologi Informasi, Program Sarjana PS Teknik Biomedis, Program Magister PS Teknik Elektro, dan Program Doktor PS Teknik Elektro). Pengelolaan di level departemen dipimpin oleh Ketua Departemen dan Sekretaris Departemen, dibantu koordinator urusan Akademik, Kemahasiswaan, Penjaminan Mutu, dan P2MK; koordinator urusan SDM, Umum, SHE, dan Teknologi Informasi; dan koordinator urusan Keuangan, dan Aset/Sarana Prasarana. Pengelolaan  yang ada pada level departemen memungkinkan optimalisasi sumber daya yang dimiliki, termasuk di dalamnya pembagian tugas mengajar, pemerataan beban bimbingan skripsi, Tesis, maupun disertasi, layanan administratif tenaga kependidikan, dan pemanfaatan sarana prasarana lain yang dimiliki oleh Departemen.\nSetiap Program Studi, termasuk PMPSTI, memiliki satu orang Ketua Program Studi dan Sekretaris Program Studi. Ketua Program Studi dan Sekretaris Program Studi bertanggung jawab secara langsung dalam memastikan program yang telah disusun dapat berjalan dengan baik dan efektif. Struktur organisasi dan tata kelola di level Departemen ditunjukkan pada Gambar di bawah ini.\n\n\n\n\n\n\nGambar F.1: Gambar Struktur Organisasi dan Tata Kelola DTETI FT UGM",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Pengelolaan Program Studi</span>"
+    ]
+  },
+  {
+    "objectID": "appendix/g_finance.html",
+    "href": "appendix/g_finance.html",
+    "title": "Lampiran G — Pembiayaan Program Studi",
+    "section": "",
+    "text": "Pembiayaan terdiri dari biaya operasional pendidikan, biaya penelitian, biaya pengabdian kepada masyarakat, biaya investasi SDM, sarana, dan prasarana, seperti yang ditunjukkan pada #tbl-detailcost. Pembiayaan berasal dari RKAT Departemen Teknik Elektro dan Teknologi Informasi, DIKTI dan mitra penelitian (baik dalam negeri maupun luar negeri).\n\n\n\nTabel G.1: Rincian Biaya Penggunaan Dana\n\n\n\n\n\n\n\n\n\n\nJenis Penggunaan\nBiaya (Rupiah)\n% Penggunaan\n\n\n\n\nBiaya operasional pendidikan\n1.862.917.464\n45,2\n\n\nBiaya penelitian\n1.733.394.793\n42,1\n\n\nBiaya pengabdian kepada masyarakat\n50.118.171\n1,2\n\n\nBiaya investasi SDM, sarana, dan prasarana\n472.149.547\n11,5\n\n\n\n\n\n\nDari data yang disajikan terlihat bahwa alokasi dana untuk pengggunaan operasional pendidikan, penelitian, kegiatan PkM, dan investasi SDM dan sarana prasarana telah mencukupi untuk mendukung aktifitas tridharma Perguruan Tinggi di PMPSTI.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Pembiayaan Program Studi</span>"
     ]
   }
 ]

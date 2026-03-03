@@ -37,5 +37,17 @@
   },
   "appendix/d_tendik.qmd": {
     "d_tendik.html": "addd9228"
+  },
+  "appendix/e_facilities.qmd": {
+    "e_facilities.html": "90658fed"
+  },
+  "appendix/f_org.qmd": {
+    "f_org.html": "654ec815"
+  },
+  "appendix/g_finance.qmd": {
+    "g_finance.html": "9e655bdf"
+  },
+  "front/c_glossary.qmd": {
+    "c_glossary.html": "7c7df8d1"
   }
 }

@@ -29,11 +29,11 @@ book:
     background: "#D9E3E4"
     logo: "images/logo.png"
     search: true
-    collapse-level: 2
+    collapse-level: 1
     pinned: true 
     tools:
-      - icon: twitter
-        href: https://twitter.com
+      # - icon: twitter
+      #   href: https://twitter.com
       - icon: file-pdf
         href: "Buku-Panduan-Akademik.pdf"
         text: "Cetak / PDF"
@@ -42,6 +42,7 @@ book:
     - index.qmd
     - front/a_editor.qmd
     - front/b_preface.qmd
+    - front/c_glossary.qmd
     - chapter1/introduction.qmd
     - chapter2/curricula.qmd
     - chapter3/transition.qmd
@@ -52,6 +53,9 @@ book:
     - appendix/b_lecturers.qmd
     - appendix/c_ewmp.qmd
     - appendix/d_tendik.qmd
+    - appendix/e_facilities.qmd
+    - appendix/f_org.qmd
+    - appendix/g_finance.qmd
 
 
   page-footer:
@@ -106,7 +110,7 @@ format:
 
         % ── Bahasa ────────────────────────────────────────────────────────
         \usepackage[indonesian]{babel}
-        \AtBeginDocument{\selectlanguage{indonesian}}
+        \AtBeginDocument{\selectlanguage{indonesian}}{\let\maketitle\relax}
         \addto\captionsindonesian{
           \renewcommand{\contentsname}{Daftar Isi}
           \renewcommand{\listfigurename}{Daftar Gambar}
@@ -125,6 +129,9 @@ format:
         \usepackage{enumitem}
         \usepackage{caption}
         \setlist[enumerate]{nosep, leftmargin=*}
+        \usepackage{tabularx}
+        \usepackage{array}
+        \usepackage{pdfpages}
 
         % ── Counter ───────────────────────────────────────────────────────
         \setcounter{secnumdepth}{3}
@@ -207,7 +214,13 @@ format:
           \renewcommand{\appendixname}{Lampiran}
           \addto\captionsindonesian{\renewcommand{\appendixname}{Lampiran}}
         }
-        
+    include-before-body:
+      - text: |
+          \pagenumbering{gobble}
+          \includepdf[pages=1, fitpaper=false, scale=1, templatesize={210mm}{297mm}, pagecommand={\thispagestyle{empty}}]{files/cover.pdf}
+          \newpage
+          \pagenumbering{arabic}
+          \setcounter{page}{1}
 
 freeze: auto
 editor: visual

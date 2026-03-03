@@ -59,7 +59,7 @@ if (knitr::is_html_output()) {
     column_spec(1, width = "0.6cm") |>
     column_spec(2, width = "4.5cm") |>
     column_spec(3, width = "3cm") |>
-    column_spec(4, width = "4cm")
+    column_spec(4, width = "4.5cm")
 
 }
 ```

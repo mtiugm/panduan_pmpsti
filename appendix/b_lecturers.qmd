@@ -6,7 +6,6 @@ suppress-bibliography: true
 # Daftar Dosen PMPSTI, Departemen Teknik Elektro dan Teknologi Informasi, FT UGM
 :::
 
-
 ```{r}
 #| label: tbl-lecturers
 #| tbl-cap: "Daftar Dosen PMPSTI FT UGM"
