@@ -1,8 +1,3 @@
----
-title: "Persyaratan Kululusan (Yudisium)"
-editor: visual
----
-
 ## Persyaratan Kelulusan (Yudisium)
 
 Mahasiswa dinyatakan lulus untuk menyandang gelar Master of Engineering (M.Eng.) dalam bidang Teknologi Informasi bila telah memenuhi syarat-syarat sebagai berikut:

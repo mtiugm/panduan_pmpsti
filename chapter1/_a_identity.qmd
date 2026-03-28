@@ -3,37 +3,31 @@
 ### Perguruan Tinggi
 
 #### Nama {.unnumbered}
-Universitas Gadjah Mada  
+
+Universitas Gadjah Mada
 
 #### Visi {.unnumbered}
+
 Sebagai pelopor perguruan tinggi nasional berkelas dunia yang unggul dan inovatif, mengabdi kepada kepentingan bangsa dan kemanusiaan, dijiwai nilai-nilai budaya bangsa berdasarkan Pancasila.
 
 #### Misi {.unnumbered}
 
 Melaksanakan pendidikan, penelitian, dan pengabdian kepada masyarakat serta pelestarian dan pengembangan ilmu yang unggul dan bermanfaat bagi masyarakat.
 
-
-
 #### Tujuan {.unnumbered}
 
 a.  Mewujudkan UGM sebagai lembaga nasional ilmu pengetahuan, kebudayaan, dan pendidikan tinggi yang menanamkan dan mengajarkan ilmu pengetahuan dan kebudayaan kepada Mahasiswa demi kelangsungan dan kehidupan manusia pada umumnya, demi perkembangan bangsa dan rakyat pada khususnya sebagai penjelmaan dan pelaksanaan Pancasila dan Undang-undang Dasar Negara Republik Indonesia Tahun 1945, serta demi tercapainya cita-cita Proklamasi Kemerdekaan sebagaimana ditentukan dalam Pembukaan Undang-undang Dasar Negara Republik Indonesia Tahun 1945;
 b.  Membentuk manusia susila yang mempunyai keinsafan bertanggung jawab atas kesejahteraan Indonesia khususnya dan dunia umumnya, dalam arti berjiwa bangsa Indonesia, manusia budaya Indonesia, yang mempunyai dasar keinsafan hidup berketuhanan Yang Maha Esa, berperi kemanusiaan yang adil dan beradab, demokratis, diliputi oleh kenyataan dan kebenaran, cerdas, kreatif, terampil, mampu berkomunikasi dan berkesadaran lingkungan untuk melaksanakan tanggung jawabnya terhadap pembangunan, pemeliharaan dan pengembangan kebudayaan, hidup kemasyarakatan, serta masa depan bangsa dan negara Indonesia khususnya dan umat manusia pada umumnya.
 
-
 ### Fakultas {#sec-faculty}
-
 
 #### Nama {.unnumbered}
 
 Fakultas Teknik
 
-
-
 #### Visi {.unnumbered}
 
 Fakultas Teknik UGM menjadi lembaga pendidikan tinggi teknik berjejaring nasional dan global untuk penguatan peradaban baru, penguatan kemandirian dan kedaulatan bangsa di bidang IPTEK, dan perlambatan kenaikan entropi dunia, dalam rangka mengabdi kepada kepentingan bangsa dan kemanusiaan yang dijiwai oleh nilai-nilai budaya bangsa berdasarkan Pancasila
-
-
 
 #### Misi {.unnumbered}
 
@@ -41,8 +35,6 @@ a.  Menyelenggarakan pendidikan untuk menghasilkan lulusan yang kompeten, berint
 b.  Meningkatkan kegiatan penelitian dan pengabdian kepada masyarakat dalam rangka melestarikan, mengembangkan dan menghasilkan iptek yang berdampak pada kepentingan bangsa, kemanusiaan, peradaban dan perlambatan entropi dunia.
 c.  Mengembangkan jejaring kerjasama multidisiplin dengan berbagai lembaga dalam dan luar negeri dalam rangka pengembangan tridarma perguruan tinggi.
 d.  Meningkatkan tata kelola organisasi secara berkelanjutan yang berorientasi pada kepentingan manusia dalam konteks Society 5.0.
-
-
 
 #### Tujuan {.unnumbered}
 
@@ -58,28 +50,20 @@ d.  Tata kelola fakultas yang berkeadilan, transparan, partisipatif, akuntabel, 
 
 e.  Kerjasama yang strategis, sinergis, dan berkelanjutan dengan para mitra.
 
-
 ### Departemen
-
 
 #### Nama {.unnumbered}
 
 Departemen Teknik Elektro dan Teknologi Informasi
 
-
-
 #### Visi {.unnumbered}
 
 Departemen Teknik Elektro dan Teknologi Informasi menjadi sumber inovasi universal di bidang teknik elektro, informasi, dan biomedis untuk kepentingan bangsa dan kemanusiaan yang dijiwai nilai-nilai budaya bangsa berdasarkan Pancasila.
-
-
 
 #### Misi {.unnumbered}
 
 a.  Melaksanakan tridarma perguruan tinggi yang mampu menginternalisasi nilai-nilai DTETI (excellent, teamwork, harmony, optimistic, smart dan berintegritas: ETHOS for integrity) bagi kepentingan bangsa dan kemanusiaan.
 b.  Mengembangkan lingkungan keilmuan yang mendorong tumbuhnya inovasi dalam pelaksanaan tridarma perguruan tinggi.
-
-
 
 #### Tujuan {.unnumbered}
 
@@ -89,35 +73,25 @@ c.  Menyelenggarakan pengabdian kepada masyarakat yang berkontribusi secara akti
 d.  Menjalin kerja sama yang strategis, sinergis, dan berkelanjutan dengan para mitra dalam rangka mendorong tumbuhnya keunggulan dan inovasi dalam pelaksanaan tridharma Perguruan Tinggi.
 e.  Menegakkan tata pamong yang baik dalam penyelenggaraan tata kelola Departemen yang berkeadilan, transparan, partisipatif, akuntabel, dan terintegrasi antar bidang guna menunjang efektivitas dan efisiensi pemanfaatan sumber daya. Kerjasama yang strategis, sinergis, dan berkelanjutan dengan para mitra dalam rangka mendorong tumbuhnya keunggulan dan inovasi dalam pelaksanaan Tridharma.
 
-
-
 #### Strategi Utama {.unnumbered}
 
 a.  Penguatan orientasi keilmuan. DTETI akan berfokus pada pengembangan keilmuan berbasis keunggulan dan keunikan DTETI untuk peningkatan kemaslahatan masyarakat Indonesia dan Dunia melalui peningkatan kualitas pendidikan, penelitian, dan pengabdian kepada masyarakat (tri dharma) secara berkesinambungan.
 b.  Penguatan kerjasama multiple-helix tingkat nasional dan internasional. Pengembangan jejaring mitra kerja sama strategis yang berkesinambungan untuk mendukung peningkatan kualitas tridharma.
 c.  Penyelenggaraan tata pamong dan kelola yang lincah, fleksibel, tepat fungsi, dan tepat ukuran agar dapat secara cekatan, efektif, dan efisien menyesuaikan dengan tuntutan perubahan lingkungan. Tata pamong dan kelola yang baik akan meningkatkan kapasitas pengelolaan organisasi secara akuntabel, adil, transparan, efektif, dan efisien.
 
-
 ### Program Studi
-
 
 #### Nama {.unnumbered}
 
 Program Magister Program Studi Teknologi Informasi
 
-
-
 #### Visi {.unnumbered}
 
 Menjadi sumber inovasi yang universal di bidang ilmu Teknologi Informasi untuk kepentingan bangsa dan kemanusiaan dijiwai nilai-nilai bangsa berdasarkan Pancasila.
 
-
-
 #### Misi {.unnumbered}
 
 Melaksanakan Tridharma Perguruan Tinggi untuk mencetak lulusan yang cakap dan berintegritas dan menghasilkan penelitian yang dapat dimanfaatkan bagi kepentingan bangsa dan kemanusiaan.
-
-
 
 #### Tujuan {.unnumbered}
 
@@ -130,7 +104,6 @@ b.  Pengembangan penelitian yang berkontribusi pada pengembangan keilmuan bidang
 c.  Berkontribusi secara aktif dalam usaha penyelesaian masalah bangsa dan kemanusiaan secara universal melalui penyebaran dan penerapan produk-produk keilmuan dalam bidang Teknologi Informasi,
 
 d.  Pengembangan lingkungan akademik yang mendorong tumbuhnya keunggulan dan inovasi dalam pelaksanaan Tridharma Perguruan Tinggi.
-
 
 ### Akreditasi
 

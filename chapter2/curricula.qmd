@@ -9,3 +9,9 @@
 {{< include _d_course.qmd >}}
 
 {{< include _e_scoring.qmd >}}
+
+{{< include _f_syllabus.qmd >}}
+
+{{< include _g_policies.qmd >}}
+
+{{< include _h_judiciary.qmd >}}

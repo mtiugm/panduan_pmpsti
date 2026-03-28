@@ -49,5 +49,17 @@
   },
   "front/c_glossary.qmd": {
     "c_glossary.html": "7c7df8d1"
+  },
+  "chapter5/learning.qmd": {
+    "learning.html": "0c81ec73"
+  },
+  "chapter6/conclusion.qmd": {
+    "conclusion.html": "d27ad836"
+  },
+  "chapter4/thesis.qmd": {
+    "thesis.html": "8bb15ccd"
+  },
+  "appendix/h_kbk.qmd": {
+    "h_kbk.html": "c1bfd98e"
   }
 }

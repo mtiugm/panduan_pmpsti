@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada.">
+
+<title>5&nbsp; Pembelajaran – Buku Panduan Akademik</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapter6/conclusion.html" rel="next">
+<link href="../chapter4/thesis.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a4c5e488e33108af8d76f3f635719760.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-c54c181dcca416218236dee90fffba2b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a4c5e488e33108af8d76f3f635719760.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapter5/learning.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pembelajaran</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Mencari" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Buku Panduan Akademik</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="../Buku-Panduan-Akademik.pdf" title="Cetak / PDF" class="quarto-navigation-tool px-1" aria-label="Cetak / PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://github.com/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alihkan mode gelap"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Mencari"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beranda</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../front/a_editor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tim Penyusun</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../front/b_preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kata Pengantar</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../front/c_glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter1/introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pendahuluan</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter2/curricula.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Struktur Kurikulum</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter3/transition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Manajemen dan Mekanisme Peralihan</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter4/thesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Prosedur Pengusulan, Pelaksanaan, dan Ujian Tesis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter5/learning.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pembelajaran</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapter6/conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Penutup</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Lampiran</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alihkan bagian">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/a_cooperation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Dokumen Kerjasama PMPSTI</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/b_lecturers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Daftar Dosen PMPSTI, Departemen Teknik Elektro dan Teknologi Informasi, FT UGM</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/c_ewmp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Rata-Rata Beban Dosen PMPSTI per Semester</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/d_tendik.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Daftar Tenaga Kependidikan Departemen Teknik Elektro dan Teknologi Informasi, FT UGM</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/e_facilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Sarana dan Prasarana Pembelajaran</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/f_org.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Pengelolaan Program Studi</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/g_finance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Pembiayaan Program Studi</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix/h_kbk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Kelompok Bidang Keahlian (KBK)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Daftar Isi</h2>
+   
+  <ul>
+  <li><a href="#sistem-pembelajaran" id="toc-sistem-pembelajaran" class="nav-link active" data-scroll-target="#sistem-pembelajaran"><span class="header-section-number">5.1</span> Sistem Pembelajaran</a></li>
+  <li><a href="#sistem-kredit-semester" id="toc-sistem-kredit-semester" class="nav-link" data-scroll-target="#sistem-kredit-semester"><span class="header-section-number">5.2</span> Sistem Kredit Semester</a>
+  <ul class="collapse">
+  <li><a href="#pengertian" id="toc-pengertian" class="nav-link" data-scroll-target="#pengertian"><span class="header-section-number">5.2.1</span> Pengertian</a></li>
+  <li><a href="#tujuan" id="toc-tujuan" class="nav-link" data-scroll-target="#tujuan"><span class="header-section-number">5.2.2</span> Tujuan</a></li>
+  <li><a href="#ciri-ciri" id="toc-ciri-ciri" class="nav-link" data-scroll-target="#ciri-ciri"><span class="header-section-number">5.2.3</span> Ciri-ciri</a></li>
+  <li><a href="#pengisian-kartu-rencana-studi" id="toc-pengisian-kartu-rencana-studi" class="nav-link" data-scroll-target="#pengisian-kartu-rencana-studi"><span class="header-section-number">5.2.4</span> Pengisian Kartu Rencana Studi</a></li>
+  <li><a href="#tata-cara-pengisian-krs" id="toc-tata-cara-pengisian-krs" class="nav-link" data-scroll-target="#tata-cara-pengisian-krs"><span class="header-section-number">5.2.5</span> Tata Cara Pengisian KRS</a></li>
+  <li><a href="#pengubahan-matakuliah" id="toc-pengubahan-matakuliah" class="nav-link" data-scroll-target="#pengubahan-matakuliah"><span class="header-section-number">5.2.6</span> Pengubahan Matakuliah</a></li>
+  <li><a href="#pembatalan-rencana-studi" id="toc-pembatalan-rencana-studi" class="nav-link" data-scroll-target="#pembatalan-rencana-studi"><span class="header-section-number">5.2.7</span> Pembatalan Rencana Studi</a></li>
+  </ul></li>
+  <li><a href="#evaluasi-pelaksanaan-pembelajaran" id="toc-evaluasi-pelaksanaan-pembelajaran" class="nav-link" data-scroll-target="#evaluasi-pelaksanaan-pembelajaran"><span class="header-section-number">5.3</span> Evaluasi Pelaksanaan Pembelajaran</a>
+  <ul class="collapse">
+  <li><a href="#maksud-dan-tujuan-penyelenggaraan-ujian-evaluasi." id="toc-maksud-dan-tujuan-penyelenggaraan-ujian-evaluasi." class="nav-link" data-scroll-target="#maksud-dan-tujuan-penyelenggaraan-ujian-evaluasi."><span class="header-section-number">5.3.1</span> Maksud dan Tujuan Penyelenggaraan Ujian (Evaluasi).</a></li>
+  <li><a href="#sistem-ujian-evaluasi" id="toc-sistem-ujian-evaluasi" class="nav-link" data-scroll-target="#sistem-ujian-evaluasi"><span class="header-section-number">5.3.2</span> Sistem Ujian / Evaluasi</a></li>
+  </ul></li>
+  <li><a href="#evaluasi-mahasiswa" id="toc-evaluasi-mahasiswa" class="nav-link" data-scroll-target="#evaluasi-mahasiswa"><span class="header-section-number">5.4</span> Evaluasi Mahasiswa</a>
+  <ul class="collapse">
+  <li><a href="#sistem-penilaian" id="toc-sistem-penilaian" class="nav-link" data-scroll-target="#sistem-penilaian"><span class="header-section-number">5.4.1</span> Sistem Penilaian</a></li>
+  <li><a href="#evaluasi-hasil-studi" id="toc-evaluasi-hasil-studi" class="nav-link" data-scroll-target="#evaluasi-hasil-studi"><span class="header-section-number">5.4.2</span> Evaluasi Hasil Studi</a></li>
+  <li><a href="#ketentuan" id="toc-ketentuan" class="nav-link" data-scroll-target="#ketentuan"><span class="header-section-number">5.4.3</span> Ketentuan</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/edit/main/chapter5/learning.qmd" class="toc-action"><i class="bi bi-github"></i>Sunting laman ini</a></li><li><a href="https://github.com/issues/new" class="toc-action"><i class="bi empty"></i>Laporkan isu</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-learning" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pembelajaran</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sistem-pembelajaran" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sistem-pembelajaran"><span class="header-section-number">5.1</span> Sistem Pembelajaran</h2>
+<p>Sistem pembelajaran di Program Studi Magister Teknologi Informasi FT UGM dilaksanakan dengan menggunakan sistem kredit semester. Dalam sistem kredit, perencanaan, penyusunan, dan pelaksanaan program pendidikan menggunakan satuan kredit sebagai tolok ukur beban studi.</p>
+</section>
+<section id="sistem-kredit-semester" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sistem-kredit-semester"><span class="header-section-number">5.2</span> Sistem Kredit Semester</h2>
+<section id="pengertian" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="pengertian"><span class="header-section-number">5.2.1</span> Pengertian</h3>
+<p>Dalam sistem kredit beban studi yang harus diselesaikan oleh mahasiswa pada suatu jenjang studi dinyatakan dalam bentuk sejumlah satuan kredit.</p>
+<p>Berdasarkan adanya perbedaan minat, bakat dan kemampuan antara mahasiswa yang satu dengan yang lain, maka baik cara dan waktu untuk menyelesaikan beban studi maupun komposisi kegiatan studi untuk memenuhi beban studi yang diwajibkan tidak harus sama bagi setiap mahasiswa, meskipun&nbsp; mereka&nbsp; duduk&nbsp; dalam&nbsp; jenjang&nbsp; pendidikan yang sama.</p>
+</section>
+<section id="tujuan" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="tujuan"><span class="header-section-number">5.2.2</span> Tujuan</h3>
+<p>Pada dasarnya tujuan pokok penggunaan sistem kredit ialah:</p>
+<ol type="1">
+<li><p>Untuk memberikan kesempatan kepada para mahasiswa yang cakap dan giat belajar agar dapat menyelesaikan studi dalam waktu yang sesingkat-singkatnya;</p></li>
+<li><p>Untuk memberikan kesempatan pada para mahasiswa agar dapat mengikuti kegiatan pendidikan yang sesuai dengan minat, bakat dan kemampuan;</p></li>
+<li><p>Untuk melaksanakan sejauh mungkin sistem pendidikan “input” dan “output” ganda;</p></li>
+<li><p>Untuk mempermudah penyesuaian kurikulum terhadap perkembangan ilmu dan teknologi;</p></li>
+<li><p>Untuk memperbaiki sistem evaluasi kecakapan mahasiswa.</p></li>
+</ol>
+</section>
+<section id="ciri-ciri" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="ciri-ciri"><span class="header-section-number">5.2.3</span> Ciri-ciri</h3>
+<p>Untuk memberikan pengertian yang jelas mengenai sistem kredit, perlu dikemukakan ciri-ciri yang terdapat pada sistem ini:</p>
+<ol type="1">
+<li><p>Dalam sistem kredit bobot tiap-tiap mata kuliah dihargai dengan satuan kredit.</p></li>
+<li><p>Besar satuan kredit untuk kegiatan pendidikan yang berlainan tidak perlu sama.</p></li>
+<li><p>Besar satuan kredit untuk masing-masing kegiatan pendidikan didasarkan atas banyaknya jam kegiatan yang digunakan setiap minggu untuk kegiatan tersebut.</p></li>
+<li><p>Kegiatan pendidikan yang disediakan terdiri atas kegiatan wajib dan pilihan. Kegiatan pendidikan wajib adalah kegiatan yang wajib diikuti semua mahasiswa dalam jenjang pendidikan tertentu. Kegiatan pendidikan pilihan adalah kegiatan pendidikan yang disediakan untuk memenuhi beban pendidikan yang diwajibkan&nbsp; dan&nbsp; merupakan&nbsp; saluran&nbsp; minat,&nbsp; bakat dan kemampuan masing-masing mahasiswa dalam jenjang pendidikan tertentu.</p></li>
+<li><p>Dalam batas tertentu mahasiswa mendapatkan kebebasan untuk menentukan:</p>
+<ul>
+<li><p>banyaknya satuan kredit yang diambil untuk tiap-tiap semester;</p></li>
+<li><p>jenis kegiatan studi yang diambil untuk tiap-tiap semester;</p></li>
+<li><p>jangka waktu untuk menyelesaikan beban studi yang diwajibkan.</p></li>
+</ul></li>
+<li><p>Banyaknya satuan kredit yang diambil oleh mahasiswa pada semester tertentu&nbsp; ditentukan antara lain oleh kemampuan studi pada semester-semester sebelumnya, keadaan sosial ekonomi dan pribadi mahasiswa yang bersangkutan.</p></li>
+</ol>
+</section>
+<section id="pengisian-kartu-rencana-studi" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="pengisian-kartu-rencana-studi"><span class="header-section-number">5.2.4</span> Pengisian Kartu Rencana Studi</h3>
+<p>Pendaftaran kegiatan pendidikan dilakukan oleh mahasiswa dengan mengisi Kartu Rencana Studi secara <em>on-line</em>, mengambil password di bagian pengajaran dengan menyerahkan fotocopi bukti pembayaran SPP.</p>
+</section>
+<section id="tata-cara-pengisian-krs" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="tata-cara-pengisian-krs"><span class="header-section-number">5.2.5</span> Tata Cara Pengisian KRS</h3>
+<p>Tata cara pengisian KRS diatur oleh Departemen sebagai berikut:</p>
+<ol type="a">
+<li><p>Pengambilan <em>password</em>, pengisian dan pengambilan print out KRS harus sesuai jadwal yang telah ditentukan oleh Departemen. Apabila terlambat dari waktu yang telah ditentukan, mahasiswa dikenakan denda keterlambatan pengisian KRS.</p></li>
+<li><p>Dalam pengisian KRS, penulisan kode matakuliah harus cermat. Apabila terjadi kesalahan penulisan kode matakuliah dalam KRS merupakan tanggung jawab mahasiswa bersangkutan.</p></li>
+<li><p>Pengambilan SKS tidak boleh melebihi jumlah SKS yang telah ditentukan, sesuai dengan Indeks Prestasi (IP) yang diperoleh pada semester sebelumnya. Apabila terjadi kelebihan SKS yang diambil, maka Departemen berhak membatalkan kelebihan jumlah SKS matakuliah, sesuai pilihan mahasiswa.</p></li>
+<li><p><em>Print out</em> KRS disahkan oleh Dosen PA. 1 lembar untuk dosen Pembimbing akademik, 1 lembar untuk mahasiswa.</p></li>
+</ol>
+</section>
+<section id="pengubahan-matakuliah" class="level3" data-number="5.2.6">
+<h3 data-number="5.2.6" class="anchored" data-anchor-id="pengubahan-matakuliah"><span class="header-section-number">5.2.6</span> Pengubahan Matakuliah</h3>
+<p>Tidak ada pengubahan matakuliah dalam Kartu Rencana Studi.</p>
+</section>
+<section id="pembatalan-rencana-studi" class="level3" data-number="5.2.7">
+<h3 data-number="5.2.7" class="anchored" data-anchor-id="pembatalan-rencana-studi"><span class="header-section-number">5.2.7</span> Pembatalan Rencana Studi</h3>
+<p>Matakuliah yang telah tertulis di dalam KRS dapat dibatalkan karena mahasiswa merasa tidak sesuai atau tidak mampu menyelesaikan dengan baik. Mahasiswa diberi kesempatan untuk membatalkan matakuliah ke bagian pengajaran dengan membawa bukti KRS yang disahkan oleh Dosen Pembimbing Akademik. Waktu pembatalan matakuliah dilakukan sesuai kalender akademik yang telah ditentukan. Pembatalan matakuliah di luar waktu yang telah ditentukan tidak diijinkan.</p>
+</section>
+</section>
+<section id="evaluasi-pelaksanaan-pembelajaran" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="evaluasi-pelaksanaan-pembelajaran"><span class="header-section-number">5.3</span> Evaluasi Pelaksanaan Pembelajaran</h2>
+<section id="maksud-dan-tujuan-penyelenggaraan-ujian-evaluasi." class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="maksud-dan-tujuan-penyelenggaraan-ujian-evaluasi."><span class="header-section-number">5.3.1</span> Maksud dan Tujuan Penyelenggaraan Ujian (Evaluasi).</h3>
+<p>Maksud dan tujuan penyelenggaraan ujian:</p>
+<ol type="1">
+<li><p>Untuk menilai apakah seorang mahasiswa telah memahami atau menguasai bahan yang disajikan;</p></li>
+<li><p>Untuk mengelompokkan mahasiswa berdasarkan tingkat kemampuannya, digunakan kategori nilai sebagai berikut: A (amat baik sekali), A- (amat baik), A/B (antara amat baik dan baik), B+ (baik sekali), B (baik), B- (cukup baik), B/C (antara baik dan cukup), C+ (cukup baik sekali), C (cukup), D (kurang), dan E (sangat kurang).</p></li>
+<li><p>Untuk menilai apakah bahan yang disajikan telah sesuai serta cara menyajikannya telah cukup baik, sehingga para siswa dengan usaha yang wajar dapat memahami bahan tersebut.</p></li>
+</ol>
+<p>Tujuan pertama dan kedua tersebut terutama ditujukan kepada para mahasiswa. Tujuan ketiga terutama ditujukan kepada bahan kegiatan pendidikan dan dosen.</p>
+<p>Sistem ujian dan sistem penilaian harus disesuaikan dengan maksud dan tujuan tersebut, dan penyelenggaraan ujian harus baik.</p>
+</section>
+<section id="sistem-ujian-evaluasi" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="sistem-ujian-evaluasi"><span class="header-section-number">5.3.2</span> Sistem Ujian / Evaluasi</h3>
+<p>Ujian dapat dilaksanakan dengan berbagai macam cara seperti ujian tertulis, ujian lesan, ujian dalam bentuk seminar, ujian dalam bentuk penulisan karangan dan sebagainya. Ujian dapat pula dilaksanakan dengan berbagai kombinasi cara-cara tersebut. Cara ujian yang digunakan perlu disesuaikan dengan sifat kegiatan pendidikan.</p>
+<p>Agar maksud dan tujuan diselenggarakannya ujian dapat tercapai, maka perlu diadakan beberapa kali ujian, yaitu satu kali ujian akhir semester dan sekurang-kurangnya satu kali ujian sisipan. Data nilai dapat diperoleh berdasarkan atas nilai ujian sisipan, ujian akhir semester, dan nilai kegiatan rangkaian, seperti penulisan&nbsp; karangan, pekerjaan rumah, partisipasi dalam kelas, praktek dan sebagainya.</p>
+<p>Nilai akhir yang diberikan kepada mahasiswa ditentukan berdasarkan data nilai tersebut, yang berarti bahwa nilai akhir itu merupakan kesimpulan nilai-nilai yang dicapai oleh mahasiswa dalam ujian akhir dan kegiatan rangkaian. Dalam menentukan nilai akhir, bobot nilai-nilai yang merupakan komponennya perlu ditentukan lebih dahulu dan diberitahukan kepada mahasiswa. Misalnya: nilai ujian akhir 50%; ujian sisipan 25%; nilai penulisan karangan 15%; dan nilai pekerjaan rumah 10%.</p>
+<p>Dengan adanya data nilai yang terdiri atas berbagai jenis nilai tersebut, evaluasi hasil studi mahasiswa dalam suatu kegiatan pendidikan dapat dilaksanakan lebih tepat. Sedang adanya beberapa ujian dan penilaian merupakan dorongan bagi para mahasiswa untuk rajian belajar.</p>
+</section>
+</section>
+<section id="evaluasi-mahasiswa" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="evaluasi-mahasiswa"><span class="header-section-number">5.4</span> Evaluasi Mahasiswa</h2>
+<section id="sistem-penilaian" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="sistem-penilaian"><span class="header-section-number">5.4.1</span> Sistem Penilaian</h3>
+<p>Sistem penilaian yang sesuai dengan maksud dan tujuan yang telah disebutkan di atas adalah sistem penilaian relatif, yaitu sistem yang digunakan untuk menilai kemampuan mahasiswa secara relatif terhadap kemampuan mahasiswa lain dalam satu kelas. Hal ini berarti bahwa prestasi seluruh mahasiswa dalam satu kelas dijadikan sebagai dasar penilaian. Dalam suatu kelompok mahasiswa dengan jumlah yang memadai diasumsikan terdapat variasi kemampuan, mulai dari tingkat amat baik hingga sangat kurang. Oleh karena itu, pengelompokan mahasiswa dilakukan ke dalam kategori nilai yang lebih rinci, yaitu A (amat baik sekali), A- (amat baik), A/B (antara amat baik dan baik), B+ (baik sekali), B (baik), B- (cukup baik), B/C (antara baik dan cukup), C+ (cukup baik sekali), C (cukup), D (kurang), dan E (sangat kurang). Dengan demikian nilai-nilai huruf mempunyai arti sebagai berikut:</p>
+<div id="tbl-kategori_nilai" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[15,35,15,35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-kategori_nilai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabel&nbsp;5.1: Kategori Nilai
+</figcaption>
+<div aria-describedby="tbl-kategori_nilai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 35%">
+<col style="width: 15%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nilai</th>
+<th>Keterangan</th>
+<th>Nilai</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Amat Baik Sekali</td>
+<td>B-</td>
+<td>Cukup Baik</td>
+</tr>
+<tr class="even">
+<td>A-</td>
+<td>Amat Baik</td>
+<td>B/C</td>
+<td>Antara Baik dan Cukup</td>
+</tr>
+<tr class="odd">
+<td>A/B</td>
+<td>Antara Amat Baik dan Baik</td>
+<td>C+</td>
+<td>Cukup Baik Sekali</td>
+</tr>
+<tr class="even">
+<td>B+</td>
+<td>Baik Sekali</td>
+<td>C</td>
+<td>Cukup</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Baik</td>
+<td>D</td>
+<td>Kurang</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>E</td>
+<td>Sangat Kurang</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Disamping itu digunakan pula huruf K dan T yang berarti</p>
+<ul>
+<li><p>K = kosong (tidak ada nilai), data nilai kurang lengkap atau tidak ada karena mahasiswa mengundurkan diri dari kegiatan pendidikan secara sah. Apabila mahasiswa mengundurkan diri secara tidak sah diberi nilai E.</p></li>
+<li><p>T = tidak lengkap, data nilai kurang lengkap karena belum semua tugas diselesaikan pada waktunya atas ijin dosen yang bersangkutan. Tugas tersebut harus diselesaikan selambat-lambatnya dalam waktu satu bulan, dan apabila tidak dipenuhi nilai T diubah menjadi E.</p></li>
+</ul>
+<p>Setiap ujian merupakan bagian dari proses seleksi yang terus-menerus dan dimaksudkan untuk menyisihkan proporsi mahasiswa yang paling tidak berbakat sambil mencari bibit yang baik untuk dididik lebih lanjut sampai ke jenjang studi Sarjana (S1), Pasca Sarjana (S2), atau Doktor (S3). Di bawah ini beberapa contoh penilaian secara relatif.</p>
+<p>Contoh 1 (Berbasis Rata-rata dan Simpangan Baku)</p>
+<p>Dari seluruh nilai mahasiswa dihitung rata-rata (X) dan simpangan baku (S), kemudian ditentukan kategori nilai sebagai berikut:</p>
+<ul>
+<li>A : ≥ X + 1,5 S</li>
+<li>A- : X + 1,25 S s.d. &lt; X + 1,5 S</li>
+<li>A/B : X + 1,0 S s.d. &lt; X + 1,25 S</li>
+<li>B+ : X + 0,75 S s.d. &lt; X + 1,0 S</li>
+<li>B : X + 0,5 S s.d. &lt; X + 0,75 S</li>
+<li>B- : X + 0,25 S s.d. &lt; X + 0,5 S</li>
+<li>B/C : X s.d. &lt; X + 0,25 S</li>
+<li>C+ : X - 0,25 S s.d. &lt; X</li>
+<li>C : X - 0,5 S s.d. &lt; X - 0,25 S</li>
+<li>D : X - 1,5 S s.d. &lt; X - 0,5 S</li>
+<li>E : &lt; X - 1,5 S</li>
+</ul>
+<hr>
+<p>Contoh 2 (Berbasis Rentang Nilai Maksimum)</p>
+<p>Dari seluruh nilai mahasiswa dihitung rata-rata kelas (X). Selanjutnya, selisih antara nilai tertinggi dan rata-rata (X) dibagi tiga, misalkan diperoleh nilai x’.</p>
+<p>Batas nilai ditentukan sebagai berikut:</p>
+<ul>
+<li>A : ≥ X + 2x’</li>
+<li>A- : X + 1,75x’ s.d. &lt; X + 2x’</li>
+<li>A/B : X + 1,5x’ s.d. &lt; X + 1,75x’</li>
+<li>B+ : X + 1,25x’ s.d. &lt; X + 1,5x’</li>
+<li>B : X + x’ s.d. &lt; X + 1,25x’</li>
+<li>B- : X + 0,75x’ s.d. &lt; X + x’</li>
+<li>B/C : X + 0,5x’ s.d. &lt; X + 0,75x’</li>
+<li>C+ : X + 0,25x’ s.d. &lt; X + 0,5x’</li>
+<li>C : X - 0,5x’ s.d. &lt; X + 0,25x’</li>
+<li>D : X - 2x’ s.d. &lt; X - 0,5x’</li>
+<li>E : &lt; X - 2x’</li>
+</ul>
+<hr>
+<p>Contoh 3 (Berbasis Proporsi / Ranking)</p>
+<p>Setelah nilai ujian diperoleh (misalnya dalam skala 0–100), mahasiswa diurutkan dari nilai tertinggi hingga terendah. Berdasarkan urutan tersebut, dilakukan pengelompokan sebagai berikut:</p>
+<div id="tbl-proporsi_penilaian" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[50,25]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-proporsi_penilaian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabel&nbsp;5.2: Proporsi Penilaian
+</figcaption>
+<div aria-describedby="tbl-proporsi_penilaian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Proporsi</th>
+<th>Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5% teratas</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>10% berikutnya</td>
+<td>A-</td>
+</tr>
+<tr class="odd">
+<td>10% berikutnya</td>
+<td>A/B</td>
+</tr>
+<tr class="even">
+<td>15% berikutnya</td>
+<td>B+</td>
+</tr>
+<tr class="odd">
+<td>20% berikutnya</td>
+<td>B</td>
+</tr>
+<tr class="even">
+<td>10% berikutnya</td>
+<td>B-</td>
+</tr>
+<tr class="odd">
+<td>10% berikutnya</td>
+<td>B/C</td>
+</tr>
+<tr class="even">
+<td>10% berikutnya</td>
+<td>C+</td>
+</tr>
+<tr class="odd">
+<td>5% berikutnya</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td>3% berikutnya</td>
+<td>D</td>
+</tr>
+<tr class="odd">
+<td>2% terbawah</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<hr>
+<p>Dalam pelaksanaan penilaian relatif pada kelas dengan jumlah mahasiswa kecil (kurang dari 20 orang), dosen perlu mempertimbangkan kemampuan mahasiswa secara individual.</p>
+<p>Mahasiswa dengan nilai terendah tidak harus diberikan nilai E apabila masih memenuhi kriteria minimal yang layak. Sebaliknya, mahasiswa dengan nilai tertinggi tidak harus diberikan nilai A apabila belum memenuhi standar mutu yang ditetapkan.</p>
+<p>Sistem penilaian pada jenjang Magister pada dasarnya mengikuti prinsip yang sama dengan jenjang Sarjana, dengan penyesuaian pada standar kelulusan yang berlaku.</p>
+</section>
+<section id="evaluasi-hasil-studi" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="evaluasi-hasil-studi"><span class="header-section-number">5.4.2</span> Evaluasi Hasil Studi</h3>
+<p>Evaluasi hasil studi mahasiswa dilakukan dengan menghitung Indeks Prestasi (IP), yaitu nilai rata-rata berbobot dari seluruh kegiatan akademik yang diambil oleh mahasiswa.</p>
+<p>Perhitungan Indeks Prestasi (IP) menggunakan rumus sebagai berikut:</p>
+<p>IP = (∑ (SKS × Bobot Nilai)) / ∑ SKS</p>
+<p>Untuk keperluan perhitungan IP, nilai huruf dikonversikan ke dalam bobot sebagai berikut:</p>
+<div id="tbl-perhitungan_ip" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[25,25,25,25]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-perhitungan_ip-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabel&nbsp;5.3: Perhitungan Indeks Prestasi
+</figcaption>
+<div aria-describedby="tbl-perhitungan_ip-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nilai</th>
+<th>Bobot</th>
+<th>Nilai</th>
+<th>Bobot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>4.00</td>
+<td>B-</td>
+<td>2.75</td>
+</tr>
+<tr class="even">
+<td>A-</td>
+<td>3.75</td>
+<td>B/C</td>
+<td>2.50</td>
+</tr>
+<tr class="odd">
+<td>A/B</td>
+<td>3.50</td>
+<td>C+</td>
+<td>2.25</td>
+</tr>
+<tr class="even">
+<td>B+</td>
+<td>3.25</td>
+<td>C</td>
+<td>2.00</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>3.00</td>
+<td>D</td>
+<td>1.00</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>E</td>
+<td>0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="ketentuan" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="ketentuan"><span class="header-section-number">5.4.3</span> Ketentuan</h3>
+<ul>
+<li>Nilai K (Kosong) tidak diikutsertakan dalam perhitungan Indeks Prestasi.</li>
+<li>Nilai T (Tidak Lengkap) tidak diperhitungkan sebelum dikonversi menjadi nilai akhir.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Disalin!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Disalin!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapter4/thesis.html" class="pagination-link" aria-label="Prosedur Pengusulan, Pelaksanaan, dan Ujian Tesis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Prosedur Pengusulan, Pelaksanaan, dan Ujian Tesis</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapter6/conclusion.html" class="pagination-link" aria-label="Penutup">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Penutup</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/edit/main/chapter5/learning.qmd" class="toc-action"><i class="bi bi-github"></i>Sunting laman ini</a></li><li><a href="https://github.com/issues/new" class="toc-action"><i class="bi empty"></i>Laporkan isu</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

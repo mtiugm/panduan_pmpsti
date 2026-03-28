@@ -51,6 +51,160 @@ table thead th,
   content: "Lampiran " counter(appendix-counter) " ";
 }
 
+
+/* ===== Responsive Layout ===== */
+/* ===== Container & Layout ===== */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.full-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+/* Kolom Desktop (Bagi dua dengan perhitungan gap) */
+.responsive-col {
+  flex: 0 0 calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  box-sizing: border-box;
+}
+
+/* Item Tengah (Desktop) */
+.responsive-center {
+  width: calc(50% - 5px);
+  margin: 1em auto;
+  box-sizing: border-box;
+}
+
+
+/* ===== Card Style (SCSS Nesting) ===== */
+.lab-card {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+  transition: all 0.2s ease;
+  height: 100%;
+  box-sizing: border-box;
+
+  /* Efek Hover Desktop */
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  /* Gambar Tunggal (Default) */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  /* Teks Caption */
+  .card-caption {
+    font-size: 0.9em;
+    color: #555;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+}
+
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
+  /* Paksa kolom jadi 100% penuh menimpa bawaan Quarto */
+  .responsive-col, 
+  .responsive-center {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  
+  /* Matikan efek hover di mobile (touch screen) */
+  .lab-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+
+.img-circle {
+  width: 150px;      
+  height: 150px;      
+  border-radius: 50%; 
+  object-fit: cover;
+  object-position: center 30%;
+
+
+  
+  /* Styling Border */
+  border: 3px solid #5B888C; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+
+
+.tabel-staf-kbk {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+/* 2. Styling Sel (td) */
+.tabel-staf-kbk td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee; /* Garis tipis antar baris */
+  vertical-align: middle; /* Teks rata tengah secara vertikal dibanding foto */
+}
+
+/* 3. Pengaturan Lebar Kolom */
+
+/* Kolom Foto (Kolom 1 dan 3) */
+.tabel-staf-kbk td.kolom-foto {
+  width: 120px; /* Atur lebar kotak foto */
+  text-align: center; /* Foto rata tengah di dalam sel */
+}
+
+/* Kolom Nama (Kolom 2 dan 4) */
+.tabel-staf-kbk td.kolom-nama {
+  /* Sisa lebar halaman dibagi dua untuk dua kolom nama */
+  width: calc(50% - 120px); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.4;
+  padding-left: 15px; /* Jarak teks dari foto */
+}
+
+.img-circle-staf {
+  width: 100px; /* Ukuran diameter lingkaran */
+  height: 100px; /* Harus sama dengan width agar lingkaran sempurna */
+  border-radius: 50%; /* Memotong gambar jadi lingkaran */
+  
+  /* Styling Border & Bayangan */
+  border: 3px solid #5B888C; /* Warna hijau border. Ganti sesuai selera */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Bayangan halus */
+  
+  /* Cropping Pintar */
+  object-fit: cover; /* Gambar tidak gepeng, kelebihan dipotong */
+  object-position: center top; /* Fokus cropping di tengah atas (wajah) */
+}
+
+/* 5. Utility Classes (untuk footer teks) */
+.border-top { border-top: 1px solid #eee; }
+.mar-t-20 { margin-top: 20px; }
+.pad-t-10 { padding-top: 10px; }
+.fs-italic { font-style: italic; }
+.co-grey { color: #777; }
+
 // @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
 
 // $font-family: "Atkinson Hyperlegible", sans-serif;
