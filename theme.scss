@@ -154,7 +154,6 @@ table thead th,
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: #fff;
 }
 
 /* 2. Styling Sel (td) */
@@ -172,30 +171,27 @@ table thead th,
   text-align: center; /* Foto rata tengah di dalam sel */
 }
 
-/* Kolom Nama (Kolom 2 dan 4) */
 .tabel-staf-kbk td.kolom-nama {
-  /* Sisa lebar halaman dibagi dua untuk dua kolom nama */
+  
   width: calc(50% - 120px); 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #333;
   line-height: 1.4;
-  padding-left: 15px; /* Jarak teks dari foto */
+  padding-left: 15px; 
 }
 
 .img-circle-staf {
-  width: 100px; /* Ukuran diameter lingkaran */
-  height: 100px; /* Harus sama dengan width agar lingkaran sempurna */
-  border-radius: 50%; /* Memotong gambar jadi lingkaran */
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
   
-  /* Styling Border & Bayangan */
-  border: 3px solid #5B888C; /* Warna hijau border. Ganti sesuai selera */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Bayangan halus */
+  border: 3px solid #5B888C; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   
   /* Cropping Pintar */
-  object-fit: cover; /* Gambar tidak gepeng, kelebihan dipotong */
-  object-position: center top; /* Fokus cropping di tengah atas (wajah) */
+  object-fit: cover; 
+  object-position: center top; 
 }
 
 /* 5. Utility Classes (untuk footer teks) */

@@ -72,7 +72,8 @@ format:
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
-    mainfont: "Atkinson Hyperlegible"
+    #mainfont: "Atkinson Hyperlegible"
+    mainfont: 'Segoe UI'
     code-copy: true
     code-overflow: wrap
     toc: true
