@@ -63,7 +63,7 @@ book:
 
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)."
-    left: "&copy; 2026, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
+    left: "<span>&copy; <script>document.write(new Date().getFullYear());</script>, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada</span>"
     background: "#D9E3E4"
 
 format:
