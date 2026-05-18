@@ -63,6 +63,8 @@ cd panduan_pmpsti
 
 Open R inside the project folder and run:
 
+.RData
+
 ```r
 renv::restore()
 ```
