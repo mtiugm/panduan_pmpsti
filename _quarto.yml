@@ -45,10 +45,11 @@ book:
     - front/c_glossary.qmd
     - chapter1/introduction.qmd
     - chapter2/curricula.qmd
-    - chapter3/transition.qmd
+    # - chapter3/transition.qmd
     - chapter4/thesis.qmd
     - chapter5/learning.qmd
-    - chapter6/conclusion.qmd
+    - chapter6/sop.qmd
+    - chapter7/conclusion.qmd
 
   appendices: 
     - appendix/a_cooperation.qmd
@@ -57,7 +58,7 @@ book:
     - appendix/d_tendik.qmd
     - appendix/e_facilities.qmd
     - appendix/f_org.qmd
-    - appendix/g_finance.qmd
+    # - appendix/g_finance.qmd
     - appendix/h_kbk.qmd
 
 

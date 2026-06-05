@@ -1,95 +1,52 @@
 ## Ujian Tesis
 
+::: callout-note
+## Ketentuan Umum
+
+1.  Pendaftaran ujian Pra dan Pendadaran online pada halaman [magister](https://magister.jteti.ugm.ac.id/) dibuka setiap tanggal 1 dan ditutup tanggal 10 setiap bulannya.
+2.  Silakan cek jadwal ujian anda pada menu Jadwal Ujian Anda Mulai H+5 (hari kerja) setelah tanggal penutupan.
+3.  Mahasiswa wajib datang 30 menit sebelum ujian.
+4.  Pakaian ujian baik Pra maupun Pendadaran adalah:
+    -   Pria: Kemeja lengan panjang + Dasi
+    -   Wanita: Formal Blazer Warna Bebas
+:::
+
 ### Ujian Prapendadaran
 
 **Syarat Ujian Prapendadaran**
 
--   Foto Resmi Berwarna
+-   Foto Resmi Berwarna (JPEG, JPG, PNG)
 
 -   Salinan Sertifikat AcEPT skor minimal 268 (atau 500 untuk TOEFL)\
     *Bagi yang skor ACEPT nya kurang dari 268 (atau TOEFL kurang dari 500) dapat membuat permohonan Surat Keterangan Keringanan ACEPT/TOEFL dengan melampirkan 3 sertifikat perbaikan (harus ada peningkatan skor) kemudian kirim permohonan melalui <https://sms.ft.ugm.ac.id/persuratan/>, dengan mengikuti ketentuan alur [ugm.id/alurpersuratan](http://ugm.id/alurpersuratan) (cek pada keringanan TOEFL/TPA), template \[[**Unduh di Sini**](https://drive.google.com/drive/folders/1pVCjDTKrc1cWOPg-Xu1ZzAm8zrxfwz1_?usp=sharing)\]*
 
--   Salinan Sertifikat PAPS dengan Skor minimal 500
+-   Salinan Sertifikat PAPS dengan Skor minimal 500 (JPEG, JPG, PNG)
 
--   Naskah Pra Pendadaran\
+-   Naskah Pra Pendadaran (DOCX,DOC,PDF)\
     *ukuran file maksimal 7 Mb \[[**Unduh di Sini**](https://drive.google.com/drive/folders/11iEuc-2zBRqeoT7ZR_NNCI2XGBG-N4FB?usp=sharing)\]*
 
 ### Ujian Pendadaran
 
 **Syarat Ujian Pendadaran**
 
--   Foto Resmi Berwarna
+-   Foto Resmi Berwarna (JPEG,JPG,PNG)
 
--   Salinan Sertifikat AcEPT skor minimal 268 (atau 500 untuk TOEFL)\
+-   Salinan Sertifikat AcEPT skor minimal 268 (atau 500 untuk TOEFL) (JPEG,JPG,PDF)\
     *Bagi yang skor ACEPT nya kurang dari 268 (atau TOEFL kurang dari 500) dapat membuat permohonan Surat Keterangan Keringanan ACEPT/TOEFL dengan melampirkan 3 sertifikat perbaikan (harus ada peningkatan skor) kemudian kirim permohonan melalui <https://sms.ft.ugm.ac.id/persuratan/>, dengan mengikuti ketentuan alur [ugm.id/alurpersuratan](http://ugm.id/alurpersuratan) (cek pada keringanan TOEFL/TPA), template \[[**Unduh di Sini**](https://drive.google.com/drive/folders/1pVCjDTKrc1cWOPg-Xu1ZzAm8zrxfwz1_)\]*
 
--   Salinan Sertifikat TPA dengan Skor minimal 500
+-   Salinan Sertifikat TPA dengan Skor minimal 500 (PDF,JPEG,JPG)
 
--   Ijazah Sarjana (S1)
+-   Ijazah Sarjana (S1/D4) (JPEG,JPG,PNG)
 
 -   KHS/Transkrip Sementara Pendadaran dan Yudisium\
     ***dengan ketentuan:** Unduh dari aplikasi simaster: Semua matakuliah sudah keluar nilai, baik matakuliah mengulang maupun bukan matakuliah mengulang, IPK Mininal **3.00**, Coret matakuliah yang ingin dihapus.*
 
--   File Poster Tesis\
+-   File Poster Tesis (PDF,SVG)\
     *Ukuran A2 Kertas Ivory (Untuk hardcopy), untuk bentuk poster silakan lihat contoh di depan kantor Front Office.*
 
--   Bukti Melakukan Publikasi\
+-   Bukti Melakukan Publikasi (JPEG,JPG,PNG,PDF)\
     *Ketentuan Publikasi dapat di unduh pada link di samping ini \[[**Unduh di Sini**](https://drive.google.com/drive/folders/11iEuc-2zBRqeoT7ZR_NNCI2XGBG-N4FB?usp=sharing)\]*
 
--   Naskah Penelitian yang telah di Publikasikan
+-   Naskah Penelitian yang telah di Publikasikan (DOCX,DOC,PDF)
 
--   Naskah Tesis *\[[**Unduh di Sini**](https://drive.google.com/drive/folders/11iEuc-2zBRqeoT7ZR_NNCI2XGBG-N4FB?usp=sharing)\]*
-
-Mekanisme ujian akhir studi magister berupa ujian tesis dilakukan sesuai dengan SOP ujian tesis:
-
--   Mahasiswa mengajukan permohonan ujian pra pendadaran dengan dilampiri draft naskah tesis yang telah disetujui pembimbing
-
--   Mahasiswa melakukan ujian pra pendadaran dan menindaklanjuti masukan-masukan dalam ujian tersebut untuk memperbaikan naskah tesis
-
--   Mahasiswa mengajukan permohonan ujian tesis/pendadaran seacara online melalui web magister.jteti.ugm.ac.id dengan meng-*upload* syarat-syarat sebagai berikut:
-
-    -   telah lulus ujian pra pendadaran
-
-    -   menyerahkan *hard copy* draft tesis yang telah direvisi dan disetujui oleh dosen pembimbing utama dan pembimbing pendamping
-
-    -   upload bukti telah mempublikasikan hasil penelitian tesisnya ke seminar nasional atau internasional
-
-    -   memiliki IPK ³ 3,00
-
-    -   scan bukti pembayaran SPP,
-
-    -   scan Kartu Mahasiswa,
-
-    -   scan bukti Skor (Nilai) TOEFL ³500 yang masih berlaku.
-
-    -   scan bukti Skor (Nilai) TPA ³ 500 yang masih berlaku.
-
--   Atas usulan pembimbing, program studi menetapkan tim penguji tesis dan menjadwal pelaksanaan ujian.
-
--   Mahasiswa melakukan ujian tesis sesuai jadwal.
-
--   Mahasiswa melakukan perbaikan naskah tesis dengan bekonsultasi dengan pembimbing dan tim penguji.
-
--   Mahasiswa menyerahkan naskah tesis, bukti selesai perbaikan naskah tesis berupa persetujuan dan tanda tangan tim penguji dan persyaratan administratif lain yang diperlukan untuk proses yudisium dan wisuda.
-
-Staf kependidikan memantau secara adminsitratif proses ujian tesis/ujian akhir studi magister, serta melakukan dokumentasi catatan dan berita acara pelaksanaan ujian tesis. Untuk menjamin efektifitas pelaksanan monitoring dan evaluasi penulisan tesis, bersama tim penjaminan mutu tesis pengelola program studi dapat memantau ujian tesis melalui dokumen catatan dan berita acara ujian atau laporan mendesak lainnya apabila dipandang perlu. Apabila terjadi permasalahan dapat segera dicarikan jalan keluarnya oleh pengelola program studi dan tim penjaminan mutu tesis.
-
-Untuk mendeteksi kemungkinan penyimpangan dalam ujian tesis/ujian akhir studi magister dilakukan mekanisme monitoring dan evaluasi dibawah koordinasi tim penjaminan mutu tesis sebagai berikut:
-
--   Monitoring dan evaluasi ujian tesis/ujian akhir studi magister untuk mencegah penyimpangan dengan menilai:
-
-    -   Pelaksanaan ujian berjalan dengan baik dan komprehensif, tidak sekedar menyerupai perbaikan tesis
-
-    -   Kelengkapan komisi/tim penguji yang hadir dalam ujian
-
--   Pelaksanaan monitoring dan evaluasi ujian tesis/ujian akhir studi magister dilakukan oleh tim penjaminan mutu tesis dalam tahapan sebagai berikut:
-
-    -   Memantau jadwal dan pelaksanaan ujian, apabila ada permasalahan dapat diselesaikan segera sebelum ujian dimulai
-
-    -   Mengevaluasi jalannya ujian berdasarkan catatan dan berita acara ujian, serta laporan dari staf pelaksana akademik apabila ada
-
-    -   Mengusulkan tindak lanjut ke forum rapat dosen apabila terjadi penyimpangan
-
-    -   Rapat dosen untuk menentukan tindak lanjut apabila ada penyimpangan
-
-    -   Program studi mengeksekusi tindak lanjut yang telah diputuskan di rapat dosen
+-   Naskah Tesis (DOCX,DOC,PDF) *\[[**Unduh di Sini**](https://drive.google.com/drive/folders/11iEuc-2zBRqeoT7ZR_NNCI2XGBG-N4FB?usp=sharing)\]*

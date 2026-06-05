@@ -12,6 +12,7 @@ Sistem penilaian yang sesuai dengan maksud dan tujuan yang telah disebutkan di a
 | B+    | Baik Sekali               | C     | Cukup                 |
 | B     | Baik                      | D     | Kurang                |
 |       |                           | E     | Sangat Kurang         |
+
 : Kategori Nilai {#tbl-kategori_nilai tbl-colwidths="\[15,35,15,35\]"}
 
 Disamping itu digunakan pula huruf K dan T yang berarti
@@ -77,6 +78,7 @@ Setelah nilai ujian diperoleh (misalnya dalam skala 0–100), mahasiswa diurutka
 | 5% berikutnya  | C     |
 | 3% berikutnya  | D     |
 | 2% terbawah    | E     |
+
 : Proporsi Penilaian {#tbl-proporsi_penilaian tbl-colwidths="\[50,25\]"}
 
 ------------------------------------------------------------------------
@@ -105,6 +107,7 @@ Untuk keperluan perhitungan IP, nilai huruf dikonversikan ke dalam bobot sebagai
 | B+    | 3.25  | C     | 2.00  |
 | B     | 3.00  | D     | 1.00  |
 |       |       | E     | 0.00  |
+
 : Perhitungan Indeks Prestasi {#tbl-perhitungan_ip tbl-colwidths="\[25,25,25,25\]"}
 
 ### Ketentuan

@@ -61,5 +61,11 @@
   },
   "appendix/h_kbk.qmd": {
     "h_kbk.html": "c1bfd98e"
+  },
+  "chapter6/sop.qmd": {
+    "sop.html": "cdd6e2e3"
+  },
+  "chapter7/conclusion.qmd": {
+    "conclusion.html": "6525ccc8"
   }
 }
