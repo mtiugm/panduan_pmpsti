@@ -69,3 +69,19 @@ table thead th {
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: #222222 !important;
 }
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  color: #ffffff !important;
+  background-color: #303030 !important; 
+  border-color: #525252 #525252 #181818 !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #ffffff !important;
+  border-color: #525252 #525252 transparent !important;
+}
+
+.nav-tabs .nav-link {
+  color: #b0b0b0 !important;
+}

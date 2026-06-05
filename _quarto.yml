@@ -47,9 +47,9 @@ book:
     - chapter2/curricula.qmd
     # - chapter3/transition.qmd
     - chapter4/thesis.qmd
-    - chapter5/learning.qmd
+    # - chapter5/learning.qmd
     - chapter6/sop.qmd
-    - chapter7/conclusion.qmd
+    # - chapter7/conclusion.qmd
 
   appendices: 
     - appendix/a_cooperation.qmd
