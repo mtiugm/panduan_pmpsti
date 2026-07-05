@@ -11,7 +11,7 @@
 
 -   Jika ingin mengikuti wisuda pada periode IV, maka maksimal penyelesaian unggah mandiri ETD UGM dan pendaftaran akun melalui simaster di Prodi adalah pada tanggal 19 Juni.
 
--   Pendaftaran akun melalui website magister dan simaster.
+-   Pendaftaran akun melalui website simaster.
 
 -   Untuk periode yang berhimpit dengan idul fitri akan disesuaikan kemudian Dimanakah Saudara/i dapat mengakses timeline kelengkapan syarat wisuda oleh Universitas? [Klik di sini](https://akademik.ugm.ac.id/category/wisuda/).
 :::
@@ -349,9 +349,7 @@ Verifikasi akan diberikan paling cepat 1 hari setelah mahasiswa melakukan proses
 Mahasiswa harus memperhatikan nama file sebelum diunggah, pastikan sesuai yang disyaratkan (bisa dilihat di panduan manual), agar tidak gagal ketika diunggah. Beberapa kesalahan yang dilakukan mahasiswa sehingga permohonan ditolak dan mahasiswa harus melakukan perbaikan, al.
 
 1.  Lembar surat pernyataan penulis tidak ditandatangani
-
 2.  Tidak ada *bookmark*
-
 3.  Tidak menyertakan abstrak, kadang mahasiswa hanya menyertakan *abstract* saja.
 
 Meminimalkan kesalahan artinya tidak membuang waktu. Dalam waktu bersamaan banyak yang melakukan unggah mandiri, sehingga permohonan bisa tidak secepat yang diharapkan mahasiswa. Apalagi jika status permohonan ditolak karena kesalahan yang dilakukan mahasiswa dalam melakukan unggah mandiri, berarti akan lebih menyita waktu.

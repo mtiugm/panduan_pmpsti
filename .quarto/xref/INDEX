@@ -1,71 +1,53 @@
 {
   "index.qmd": {
-    "index.html": "b1961dc3"
+    "index.html": "cb5c6eed"
   },
   "front/a_editor.qmd": {
-    "a_editor.html": "ba38c535"
+    "a_editor.html": "9f061320"
   },
   "front/b_preface.qmd": {
-    "b_preface.html": "f7ec6607"
-  },
-  "chapter1/introduction.qmd": {
-    "introduction.html": "a4d882d1"
-  },
-  "chapter2/curricula.qmd": {
-    "curricula.html": "181e9538"
-  },
-  "chapter3/transition.qmd": {
-    "transition.html": "159b94f3"
-  },
-  "chapter4/conclusion.qmd": {
-    "conclusion.html": "2515ac73"
-  },
-  "appendix/a_cooperation.qmd": {
-    "a_cooperation.html": "036f6780"
-  },
-  "appendix/b_lecturers.qmd": {
-    "b_lecturers.html": "08383ecd"
-  },
-  "404.qmd": {
-    "404.html": "2efc26fa"
-  },
-  "appendix/appendices.qmd": {
-    "appendices.html": "4558401a"
-  },
-  "appendix/c_ewmp.qmd": {
-    "c_ewmp.html": "4827495c"
-  },
-  "appendix/d_tendik.qmd": {
-    "d_tendik.html": "addd9228"
-  },
-  "appendix/e_facilities.qmd": {
-    "e_facilities.html": "90658fed"
-  },
-  "appendix/f_org.qmd": {
-    "f_org.html": "654ec815"
-  },
-  "appendix/g_finance.qmd": {
-    "g_finance.html": "9e655bdf"
+    "b_preface.html": "b1dd246b"
   },
   "front/c_glossary.qmd": {
-    "c_glossary.html": "7c7df8d1"
+    "c_glossary.html": "08dbb11b"
   },
-  "chapter5/learning.qmd": {
-    "learning.html": "0c81ec73"
+  "chapter1/introduction.qmd": {
+    "introduction.html": "6ca00a04"
   },
-  "chapter6/conclusion.qmd": {
-    "conclusion.html": "d27ad836"
+  "chapter2/curricula.qmd": {
+    "curricula.html": "fc1eabca"
   },
   "chapter4/thesis.qmd": {
-    "thesis.html": "8bb15ccd"
-  },
-  "appendix/h_kbk.qmd": {
-    "h_kbk.html": "c1bfd98e"
+    "thesis.html": "df5cc465"
   },
   "chapter6/sop.qmd": {
-    "sop.html": "cdd6e2e3"
+    "sop.html": "711a6408"
   },
-  "chapter7/conclusion.qmd": {
-    "conclusion.html": "6525ccc8"
+  "chapter8/kesekretariatan.qmd": {
+    "kesekretariatan.html": "39795c5b"
+  },
+  "appendix/a_cooperation.qmd": {
+    "a_cooperation.html": "64f14d7b"
+  },
+  "appendix/b_lecturers.qmd": {
+    "b_lecturers.html": "07f0d72d"
+  },
+  "appendix/c_ewmp.qmd": {
+    "c_ewmp.html": "3346d0dd"
+  },
+  "appendix/d_tendik.qmd": {
+    "d_tendik.html": "63fc8991"
+  },
+  "appendix/e_facilities.qmd": {
+    "e_facilities.html": "37233843"
+  },
+  "appendix/f_org.qmd": {
+    "f_org.html": "c7ddecf5"
+  },
+  "appendix/h_kbk.qmd": {
+    "h_kbk.html": "74ce5606"
+  },
+  "404.qmd": {
+    "404.html": "d69d80cb"
   }
 }
