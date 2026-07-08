@@ -73,8 +73,7 @@ format:
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
-    #mainfont: "Atkinson Hyperlegible"
-    mainfont: 'Segoe UI'
+    mainfont: "Segoe UI, Helvetica, Arial, sans-serif, Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
     toc: true
@@ -229,7 +228,3 @@ format:
 
 freeze: auto
 editor: visual
-
-        # \setmainfont{Times New Roman}
-        # \setsansfont{Times New Roman}
-        # \setmonofont{Courier New}
