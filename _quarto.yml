@@ -1,6 +1,13 @@
 project:
   type: book
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "front/*.qmd"
+    - "chapter*/*.qmd"
+    - "appendix/*.qmd"
+    - "correspondence/*/index.qmd"
+
 
 language:
   crossref-fig-title: "Gambar"
@@ -22,7 +29,7 @@ book:
   date: "2026-02-16"
   description: "Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada."
   repo-url: https://github.com/
-  repo-actions: [edit, issue]
+  # repo-actions: [edit, issue]
   
   sidebar:
     style: "docked"
@@ -49,7 +56,22 @@ book:
     - chapter4/thesis.qmd
     # - chapter5/learning.qmd
     - chapter6/sop.qmd
-    # - chapter7/conclusion.qmd
+    # - chapter7/services.qmd
+    # - chapter8/conclusion.qmd
+    - part: chapter7/services.qmd
+      chapters:
+        - chapter7/correspondence/absence/index.qmd
+        - chapter7/correspondence/gap/index.qmd
+        - chapter7/correspondence/attendance/index.qmd
+        - chapter7/correspondence/completion_letter/index.qmd
+        - chapter7/correspondence/judicium_letter/index.qmd
+        - chapter7/correspondence/makeup_exam/index.qmd
+        - chapter7/correspondence/thesis_amanment/index.qmd
+        - chapter7/correspondence/study_extend/index.qmd
+        - chapter7/correspondence/ethic_clearance/index.qmd 
+        - chapter7/correspondence/graduation_doc/index.qmd
+        - chapter7/correspondence/skpi/index.qmd
+        - chapter7/correspondence/recomendation_letter/index.qmd
 
   appendices: 
     - appendix/a_cooperation.qmd

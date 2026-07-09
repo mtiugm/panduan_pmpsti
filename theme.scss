@@ -230,3 +230,66 @@ table thead th,
 //   background-size: 1em;
 //   background-position: 1em 0.5em;
 // }
+
+@media (max-width: 768px) {
+  h2, h3 {
+    position: static;
+  }
+}
+
+h2, h3 {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  background-color: var(--bs-body-bg);
+  transition: top 0.1s ease;
+}
+
+h2 {
+  top: 0;
+  z-index: 1001;
+  font-size: 1.15rem;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+h3 {
+  top: var(--h3-sticky-top, 42px); /* fallback sebelum JS jalan */
+  font-size: 1rem;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+#quarto-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Header (logo, judul, tools) */
+#quarto-sidebar .sidebar-header {
+  flex-shrink: 0;
+}
+
+/* Search */
+#quarto-sidebar .sidebar-search {
+  flex-shrink: 0;
+  padding-bottom: .5rem;
+}
+
+/* Hanya menu chapter yang discroll */
+#quarto-sidebar .sidebar-menu-container {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+#quarto-sidebar .sidebar-header,
+#quarto-sidebar > div:nth-child(2) {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #D9E3E4; /* samakan dengan warna sidebar */
+}

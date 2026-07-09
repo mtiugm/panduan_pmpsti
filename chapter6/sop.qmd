@@ -1,4 +1,4 @@
-# Standar Operasional Prosedur (SOP)
+# Kelulusan dan Wisuda
 
 <!-- {{< include _a_admission.qmd >}} -->
 
