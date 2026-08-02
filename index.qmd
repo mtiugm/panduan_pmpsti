@@ -1,10 +1,31 @@
 ---
 number-sections: false
 tbl-colwidths: [5,10,30,5,5,5,5,5,5,5]
+toc: false
 ---
 
 ::: {.content-visible when-format="html"}
 # Beranda {.unnumbered}
 
-This page contains an outline of the content of this book. You can click on the links to navigate to the corresponding sections.
-:::
+```{=html}
+<div class="menu-grid">
+<div class="grid-col-3">
+<p><a href="chapter1/introduction.qmd" class="lab-card"><i class="bi bi-book" style="font-size:2rem;"></i><br><strong>Pendahuluan</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="chapter2/curricula.qmd" class="lab-card"><i class="bi bi-mortarboard" style="font-size:2rem;"></i><br><strong>Kurikulum</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="chapter4/thesis.qmd" class="lab-card"><i class="bi bi-file-earmark-text" style="font-size:2rem;"></i><br><strong>Tesis</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="chapter6/sop.qmd" class="lab-card"><i class="bi bi-clipboard-check" style="font-size:2rem;"></i><br><strong>SOP</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="chapter7/services.qmd" class="lab-card"><i class="bi bi-envelope-paper" style="font-size:2rem;"></i><br><strong>Layanan Persuratan</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="appendix/a_cooperation.qmd" class="lab-card"><i class="bi bi-file-earmark-medical" style="font-size:2rem;"></i><br><strong>Lampiran</strong></a></p>
+</div>
+</div>
+```

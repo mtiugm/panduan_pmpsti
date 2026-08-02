@@ -73,7 +73,7 @@ book:
         - chapter7/correspondence/skpi/index.qmd
         - chapter7/correspondence/recomendation_letter/index.qmd
 
-  appendices: 
+  appendices:
     - appendix/a_cooperation.qmd
     - appendix/b_lecturers.qmd
     - appendix/c_ewmp.qmd

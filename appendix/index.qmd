@@ -1,0 +1,32 @@
+---
+title: "Lampiran"
+number-sections: false
+---
+
+Berikut adalah daftar lampiran dalam buku panduan ini. Klik salah satu untuk menuju halaman terkait.
+
+```{=html}
+<div class="menu-grid">
+<div class="grid-col-3">
+<p><a href="a_cooperation.qmd" class="lab-card"><i class="bi bi-person-fill-add" style="font-size:2rem;"></i><br><strong>Kerja Sama</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="b_lecturers.qmd" class="lab-card"><i class="bi bi-person-workspace" style="font-size:2rem;"></i><br><strong>Dosen</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="c_ewmp.qmd" class="lab-card"><i class="bi bi-bar-chart-line" style="font-size:2rem;"></i><br><strong>EWMP</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="d_tendik.qmd" class="lab-card"><i class="bi bi-person-badge" style="font-size:2rem;"></i><br><strong>Tenaga Kependidikan</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="e_facilities.qmd" class="lab-card"><i class="bi bi-building" style="font-size:2rem;"></i><br><strong>Fasilitas</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="f_org.qmd" class="lab-card"><i class="bi bi-diagram-3" style="font-size:2rem;"></i><br><strong>Struktur Organisasi</strong></a></p>
+</div>
+<div class="grid-col-3">
+<p><a href="h_kbk.qmd" class="lab-card"><i class="bi bi-people" style="font-size:2rem;"></i><br><strong>Staf KBK</strong></a></p>
+</div>
+</div>
+```

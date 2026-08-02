@@ -54,6 +54,42 @@ table thead th,
 
 /* ===== Responsive Layout ===== */
 /* ===== Container & Layout ===== */
+.menu-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px;
+}
+
+.grid-col-3 {
+  flex: 0 0 calc(33.333% - 7px) !important;
+  max-width: calc(33.333% - 7px) !important;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  .grid-col-3 {
+    flex: 0 0 calc(50% - 5px) !important;
+    max-width: calc(50% - 5px) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-col-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+a.lab-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.lab-card:visited {
+  color: inherit;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -83,29 +119,32 @@ table thead th,
 
 /* ===== Card Style (SCSS Nesting) ===== */
 .lab-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--bs-border-color, #e0e0e0);
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--bs-body-bg);   
+  color: var(--bs-body-color);          
   transition: all 0.2s ease;
   height: 100%;
   box-sizing: border-box;
 
-  /* Efek Hover Desktop */
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
 
-  /* Gambar Tunggal (Default) */
   img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     object-fit: cover;
   }
-  /* Teks Caption */
+
+  i.bi {
+    color: var(--bs-link-color);
+  }
+
   .card-caption {
     font-size: 0.9em;
     color: #555;
@@ -231,64 +270,33 @@ table thead th,
 //   background-position: 1em 0.5em;
 // }
 
-@media (max-width: 768px) {
-  h2, h3 {
-    position: static;
+@media (min-width: 992px) {
+  #quarto-sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
   }
-}
 
-h2, h3 {
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
-  transition: top 0.1s ease;
-}
+  #quarto-sidebar .sidebar-header {
+    flex-shrink: 0;
+  }
 
-h2 {
-  top: 0;
-  z-index: 1001;
-  font-size: 1.15rem;
-  padding-top: 10px;
-  padding-bottom: 8px;
-}
+  #quarto-sidebar .sidebar-search {
+    flex-shrink: 0;
+    padding-bottom: .5rem;
+  }
 
-h3 {
-  top: var(--h3-sticky-top, 42px); /* fallback sebelum JS jalan */
-  font-size: 1rem;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  border-top: 1px solid rgba(0,0,0,0.08);
-}
+  #quarto-sidebar .sidebar-menu-container {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+  }
 
-#quarto-sidebar {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
-
-/* Header (logo, judul, tools) */
-#quarto-sidebar .sidebar-header {
-  flex-shrink: 0;
-}
-
-/* Search */
-#quarto-sidebar .sidebar-search {
-  flex-shrink: 0;
-  padding-bottom: .5rem;
-}
-
-/* Hanya menu chapter yang discroll */
-#quarto-sidebar .sidebar-menu-container {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-}
-
-#quarto-sidebar .sidebar-header,
-#quarto-sidebar > div:nth-child(2) {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  #quarto-sidebar .sidebar-header,
+  #quarto-sidebar > div:nth-child(2) {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
 }
