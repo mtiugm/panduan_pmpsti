@@ -42,7 +42,7 @@ book:
       # - icon: twitter
       #   href: https://twitter.com
       - icon: file-pdf
-        href: "Buku-Panduan-Akademik.pdf"
+        href: "Buku-Panduan-Akademik-PMPSTI.pdf"
         text: "Cetak / PDF"
 
   chapters:
