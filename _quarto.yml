@@ -23,11 +23,11 @@ language:
 
 
 book:
-  title: "Buku Panduan Akademik"
+  title: "Buku Panduan Akademik PMPSTI"
   language: id
   author: "Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
   date: "2026-02-16"
-  description: "Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada."
+  description: "Program Magister Program Studi Teknologi Informasi, Universitas Gadjah Mada."
   repo-url: https://github.com/
   # repo-actions: [edit, issue]
   
@@ -243,7 +243,6 @@ format:
     include-before-body:
       - text: |
           \pagenumbering{gobble}
-          \includepdf[pages=1, fitpaper=false, scale=1, templatesize={210mm}{297mm}, pagecommand={\thispagestyle{empty}}]{files/cover.pdf}
           \newpage
           \pagenumbering{arabic}
           \setcounter{page}{1}

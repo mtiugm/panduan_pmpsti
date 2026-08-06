@@ -27,5 +27,5 @@ toc: false
 <div class="grid-col-3">
 <p><a href="appendix/a_cooperation.qmd" class="lab-card"><i class="bi bi-file-earmark-medical" style="font-size:2rem;"></i><br><strong>Lampiran</strong></a></p>
 </div>
-</div>
 ```
+:::
