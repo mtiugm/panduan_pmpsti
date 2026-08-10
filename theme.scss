@@ -300,3 +300,37 @@ a.lab-card:visited {
     z-index: 20;
   }
 }
+
+/* ===== Language Toggle (ID | EN) — capsule ===== */
+#lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  background-color: #eef2f2;
+  border: 1px solid #d3dcdc;
+  border-radius: 999px;
+  padding: 2px;
+}
+
+#lang-toggle button {
+  all: unset;
+  font-family: $font-family;
+  font-size: 0.68rem;
+  line-height: 1;
+  color: #6b7778;
+  cursor: pointer;
+  padding: 3px 9px;
+  border-radius: 999px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+#lang-toggle button:hover:not(.active) {
+  color: #5B888C;
+}
+
+#lang-toggle button.active {
+  background-color: #5B888C;
+  color: #ffffff;
+  font-weight: 700;
+}

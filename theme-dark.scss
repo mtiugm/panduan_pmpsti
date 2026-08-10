@@ -120,3 +120,22 @@ table thead th {
 .form-select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
 }
+
+/* ===== Language Toggle (ID | EN) — capsule, dark mode ===== */
+#lang-toggle {
+  background-color: #242424 !important;
+  border: 1px solid #525252 !important;
+}
+
+#lang-toggle button {
+  color: #b0b0b0 !important;
+}
+
+#lang-toggle button:hover:not(.active) {
+  color: #8fd0d5 !important;
+}
+
+#lang-toggle button.active {
+  background-color: #5B888C !important;
+  color: #ffffff !important;
+}

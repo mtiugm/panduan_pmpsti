@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="/site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="/site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="/site_libs/bootstrap/bootstrap-a22d24b5ad47fcd0079b50733b042ba5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="/site_libs/bootstrap/bootstrap-dark-6f3fc187ad719a4e77033ebe82d06fc3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="/site_libs/bootstrap/bootstrap-a22d24b5ad47fcd0079b50733b042ba5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="/site_libs/bootstrap/bootstrap-af0896d28be900f36e9b03ebb9caf3e1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="/site_libs/bootstrap/bootstrap-dark-987e2ca334441d4574a336cb411e9b27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="/site_libs/bootstrap/bootstrap-af0896d28be900f36e9b03ebb9caf3e1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,11 +72,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Mencari"
   }
 }</script>
+<!-- ── Google Translate (ID <-> EN) — styling ada di theme.scss ─── -->
+<style>
+  #google_translate_element { display: none !important; }
+  .goog-te-banner-frame.skiptranslate { display: none !important; }
+  body { top: 0 !important; }
+  .goog-tooltip, .goog-tooltip:hover { display: none !important; }
+  .goog-text-highlight { background: none !important; box-shadow: none !important; }
+</style>
 
-
-</head>
-
-<body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+</head><body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -238,7 +243,79 @@ ul.task-list li input[type="checkbox"] {
     } else {
       toggleColorMode(false);
     }
-  </script>
+  </script><div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'id', includedLanguages: 'en', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
+  function clearGoogTransCookie() {
+    var hostname = window.location.hostname;
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + hostname;
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + hostname;
+  }
+
+  function setLang(lang) {
+    try { localStorage.setItem('pmpsti-lang', lang); } catch (e) {}
+    if (lang === 'id') {
+      clearGoogTransCookie();
+      window.location.reload();
+      return;
+    }
+    var select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event('change'));
+      document.querySelectorAll('#lang-toggle button').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.lang === lang);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var toolsRow = document.querySelector('.sidebar-tools-main');
+    if (!toolsRow) return;
+
+    var saved = null;
+    try { saved = localStorage.getItem('pmpsti-lang'); } catch (e) {}
+
+    var wrap = document.createElement('span');
+    wrap.id = 'lang-toggle';
+    wrap.innerHTML =
+      '<button type="button" data-lang="id">ID</button>' +
+      '<button type="button" data-lang="en">EN</button>';
+    toolsRow.appendChild(wrap);
+
+    var activeLang = saved === 'en' ? 'en' : 'id';
+    wrap.querySelectorAll('button').forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.lang === activeLang);
+      btn.addEventListener('click', function () { setLang(btn.dataset.lang); });
+    });
+
+    if (activeLang === 'en') {
+      var interval = setInterval(function () {
+        var select = document.querySelector('.goog-te-combo');
+        if (select) {
+          clearInterval(interval);
+          select.value = 'en';
+          select.dispatchEvent(new Event('change'));
+        }
+      }, 300);
+    }
+  });
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
 <!-- content -->
