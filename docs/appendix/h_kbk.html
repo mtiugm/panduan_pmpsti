@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-af0896d28be900f36e9b03ebb9caf3e1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-987e2ca334441d4574a336cb411e9b27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-af0896d28be900f36e9b03ebb9caf3e1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e56e73404183b3d179b8662b89fe0105.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a3fc581fa473693c9d19d2a0b010e7e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e56e73404183b3d179b8662b89fe0105.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -253,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
     );
   }
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script type="text/javascript">
   function clearGoogTransCookie() {
@@ -265,6 +265,12 @@ ul.task-list li input[type="checkbox"] {
 
   function setLang(lang) {
     try { localStorage.setItem('pmpsti-lang', lang); } catch (e) {}
+
+    // FIX 2: update tampilan tombol dulu, selalu — tidak bergantung GT sudah siap atau belum
+    document.querySelectorAll('#lang-toggle button').forEach(function (b) {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+
     if (lang === 'id') {
       clearGoogTransCookie();
       window.location.reload();
@@ -274,9 +280,6 @@ ul.task-list li input[type="checkbox"] {
     if (select) {
       select.value = lang;
       select.dispatchEvent(new Event('change'));
-      document.querySelectorAll('#lang-toggle button').forEach(function (b) {
-        b.classList.toggle('active', b.dataset.lang === lang);
-      });
     }
   }
 

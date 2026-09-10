@@ -4,26 +4,46 @@
 
 $font-family: "Atkinson Hyperlegible", sans-serif;
 
-// Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #75AADB;
+// ================================================================
+// PALET WARNA (mode gelap) — Identitas Program Studi Teknologi
+// Rekayasa Internet (TRI), Sekolah Vokasi UGM.
+//
+// Mengikuti warna resmi UGM (biru navy / UGM Blue & emas / UGM
+// Gold), disesuaikan agar tetap kontras & nyaman dibaca di latar
+// gelap. Ganti dengan kode HEX resmi UGM apabila tersedia.
+// ================================================================
+$ugm-navy-bg:    #0C1524; // latar utama — hampir hitam, bernuansa navy
+$ugm-navy-panel: #14213D; // navbar, sidebar, footer
+$ugm-navy-input: #16213E; // input, popover
+$ugm-gold:       #E3B54F; // emas — aksen & link (kontras tinggi di gelap)
+$ugm-gold-600:   #C99A2E; // emas lebih gelap (hover/border)
+$ugm-gold-100:   rgba(227, 181, 79, 0.16); // tint emas transparan
 
-$light: #525252;
+// Base document colors
+$body-bg: $ugm-navy-bg;
+$body-color: #EDEDED;
+$link-color: $ugm-gold;
+
+$light: #3A4B66;
 
 // Navigation element colors
-$footer-bg: #181818;
-$navbar-bg: #303030;
-$sidebar-bg: #303030;
+$footer-bg: $ugm-navy-panel;
+$navbar-bg: $ugm-navy-panel;
+$sidebar-bg: $ugm-navy-panel;
 
-// Code blocks
+// Code blocks & inline code (`like this`)
+// Default Bootstrap/cosmo dark code color is a low-contrast purple
+// (#7d12ba) that all but disappears on our navy background — swap it
+// for gold so inline commands stay legible.
+$code-color: $ugm-gold;
+$code-bg: $ugm-navy-input;
 $code-block-bg-alpha: -.8;
 
 // Bootstrap popovers
-$popover-bg: #242424;
+$popover-bg: $ugm-navy-input;
 
 // Bootstrap inputs
-$input-bg: #242424;
+$input-bg: $ugm-navy-input;
 
 $input-group-addon-bg: $input-bg;
 $input-group-addon-color: $body-color;
@@ -36,35 +56,94 @@ $form-control-bg: $input-bg;
 $form-control-color: $body-color;
 $form-control-border-color: $light;
 
-
 /*-- scss:rules --*/
 
 .layout-example {
   background: $gray-700;
 }
 
-.render-commit-push {
-  padding: 0.5em 0.5em 0em 3em;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background: #181818 5px center/3em no-repeat;
-  border-top: 1px solid #adadad;
-  border-bottom: 1px solid #adadad;
-  background-image: url("images/render-commit-push.png");
-  background-size: 2em;
-  background-position: 0.5em 0.5em;
+/* ===== Perbaikan warna ungu bawaan browser & syntax highlighting ====
+   Browser secara default mewarnai tautan yang sudah pernah dibuka
+   (":visited") dengan ungu tua (~#551A8B) — hampir tidak terlihat di
+   atas latar navy gelap. Begitu juga beberapa token kode ("pp"/"wa")
+   pada tema highlighting bawaan Quarto memakai lavender pucat. Semua
+   diseragamkan ke emas/oranye atau putih agar tetap terbaca. */
+a,
+a:link {
+  color: $ugm-gold;
 }
 
+a:visited {
+  color: $ugm-gold-600;
+}
+
+a:hover,
+a:focus {
+  color: #ffffff;
+}
+
+:root {
+  --quarto-hl-pp-color: #{$ugm-gold};
+  --quarto-hl-wa-color: #{$ugm-gold};
+  --bs-code-color: #{$ugm-gold};
+}
+
+/* Safety net: force inline `code` spans (outside fenced code blocks)
+   to gold-on-navy-tint, in case the bslib $code-color variable above
+   doesn't fully propagate to every derived rule. */
+p code,
+li code,
+td code,
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code,
+.callout code,
+blockquote code {
+  color: $ugm-gold !important;
+  background-color: $ugm-navy-input !important;
+}
+
+/* ===== Judul buku & navigasi sidebar: kembali ke putih =====
+   Aturan "a { color: gold }" di atas ikut mewarnai judul buku dan
+   seluruh tautan di sidebar kiri (padahal itu navigasi, bukan tautan
+   isi). Dikembalikan ke putih/abu terang; hanya bab/bagian yang
+   sedang aktif tetap ditandai emas supaya posisi masih terlihat. */
+.sidebar-title,
+.sidebar-title a,
+#quarto-sidebar a {
+  color: #ffffff !important;
+}
+
+#quarto-sidebar a:hover {
+  color: $ugm-gold !important;
+}
+
+#quarto-sidebar a.active {
+  color: $ugm-gold !important;
+}
+
+/* ===== Kotak instruksi Git (render-commit-push & pull) ===== */
+.render-commit-push,
 .pull {
   padding: 0.5em 0.5em 0em 3em;
   margin-top: 5px;
   margin-bottom: 5px;
-  background: #181818 5px center/3em no-repeat;
-  border-top: 1px solid #adadad;
-  border-bottom: 1px solid #adadad;
-  background-image: url("images/pull.png");
+  background-repeat: no-repeat;
   background-size: 2em;
   background-position: 0.5em 0.5em;
+  border-radius: 6px;
+}
+
+.render-commit-push {
+  background-color: $ugm-navy-input;
+  border-top: 1px solid $ugm-gold-600;
+  border-bottom: 1px solid $ugm-gold-600;
+  background-image: url("images/render-commit-push.png");
+}
+
+.pull {
+  background-color: $ugm-gold-100;
+  border-top: 1px solid $ugm-gold;
+  border-bottom: 1px solid $ugm-gold;
+  background-image: url("images/pull.png");
 }
 
 .quarto-dark img.sidebar-logo {
@@ -73,28 +152,50 @@ $form-control-border-color: $light;
 
 .table thead th,
 table thead th {
-  background-color: #2C3E50 !important;  
-  color: #ffffff !important;             
+  background-color: $ugm-navy-panel !important;
+  color: $ugm-gold !important;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #222222 !important;
+  background-color: #101a2c !important;
 }
 
-.nav-tabs .nav-link.active, 
+.tabel-staf-kbk tr:hover {
+  background-color: $ugm-gold-100 !important;
+}
+
+.nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #ffffff !important;
-  background-color: #303030 !important; 
-  border-color: #525252 #525252 #181818 !important;
+  background-color: $ugm-navy-panel !important;
+  border-color: $light $light $ugm-navy-bg !important;
 }
 
 .nav-tabs .nav-link:hover {
-  color: #ffffff !important;
-  border-color: #525252 #525252 transparent !important;
+  color: $ugm-gold !important;
+  border-color: $light $light transparent !important;
 }
 
 .nav-tabs .nav-link {
   color: #b0b0b0 !important;
+}
+
+.img-circle,
+.img-circle-staf {
+  border-color: $ugm-gold-600 !important;
+}
+
+.lab-card {
+  border-top-color: $ugm-gold-600 !important;
+
+  &:hover {
+    border-top-color: $ugm-gold !important;
+    box-shadow: 0 4px 14px rgba(227, 181, 79, 0.18) !important;
+  }
+
+  i.bi {
+    color: $ugm-gold !important;
+  }
 }
 
 // Fix ikon sort/filter pada listing grid (type: grid, sort-ui, filter-ui)
@@ -121,10 +222,110 @@ table thead th {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
 }
 
-/* ===== Language Toggle (ID | EN) — capsule, dark mode ===== */
+/* ===== Footer ===== */
+.nav-footer {
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  align-items: center !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav-footer {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* ===== Tombol copy pada code block — mode gelap ===== */
+/* Teks "Copied!" muncul hitam karena Bootstrap tooltip default terang.
+   Dipaksa jadi teks putih / emas di latar navy. */
+.code-copy-button {
+  color: $body-color !important;
+}
+
+.code-copy-button:hover {
+  color: $ugm-gold !important;
+  background-color: $ugm-gold-100 !important;
+}
+
+/* Bootstrap tooltip (hover: "Copy to Clipboard" & klik: "Copied!") */
+.tooltip .tooltip-inner {
+  background-color: $ugm-navy-panel !important;
+  color: $body-color !important;
+  border: 1px solid $light;
+}
+
+.tooltip .tooltip-arrow::before,
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+  border-top-color: $ugm-navy-panel !important;
+}
+
+/* ===== Table of Contents kanan (doc-toc) — kontras mode gelap ===== */
+nav[role="doc-toc"],
+nav[role="doc-toc"] * {
+  opacity: 1 !important;
+}
+
+nav[role="doc-toc"] a,
+nav[role="doc-toc"] .nav-link,
+#quarto-toc a,
+#quarto-margin-sidebar a,
+#quarto-margin-sidebar .nav-link {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  transition: color 0.15s ease, box-shadow 0.15s ease;
+}
+
+nav[role="doc-toc"] a:hover,
+nav[role="doc-toc"] .nav-link:hover,
+#quarto-toc a:hover,
+#quarto-margin-sidebar a:hover,
+#quarto-margin-sidebar .nav-link:hover {
+  color: $ugm-gold !important;
+}
+
+nav[role="doc-toc"] a.active,
+nav[role="doc-toc"] .nav-link.active,
+#quarto-toc a.active,
+#quarto-margin-sidebar a.active,
+#quarto-margin-sidebar .nav-link.active {
+  color: $ugm-gold !important;
+  /* inset box-shadow = garis kiri tanpa mengubah layout/posisi */
+  box-shadow: inset 2px 0 0 $ugm-gold;
+}
+
+/* ===== Code block tanpa bahasa (plain ```) — pastikan teks terlihat di dark mode ===== */
+pre:not(.sourceCode) code,
+pre:not(.sourceCode) {
+  color: $body-color !important;
+  background-color: $ugm-navy-input !important;
+}
+
+/* ===== Code annotation — geser anchor agar tidak tumpang tindih copy button ===== */
+div.sourceCode {
+  pre > code .code-annotation-anchor {
+    margin-right: 2rem;
+  }
+}
+
+/* ===== Language Toggle (ID | EN) — capsule, mode gelap ===== */
 #lang-toggle {
-  background-color: #242424 !important;
-  border: 1px solid #525252 !important;
+  background-color: $ugm-navy-input !important;
+  border: 1px solid $light !important;
 }
 
 #lang-toggle button {
@@ -132,10 +333,65 @@ table thead th {
 }
 
 #lang-toggle button:hover:not(.active) {
-  color: #8fd0d5 !important;
+  color: $ugm-gold !important;
 }
 
 #lang-toggle button.active {
-  background-color: #5B888C !important;
-  color: #ffffff !important;
+  background-color: $ugm-gold-600 !important;
+  color: $ugm-navy-bg !important;
+}
+
+/* ===== gt tables — dark mode ===== */
+/* Body cell color & background dihandle oleh gt-dark.html
+   (include-after-body) agar posisinya setelah inline <style> gt.
+   Di sini hanya header & border yang bisa di-override dari luar. */
+
+div.gt_container {
+  --gt-body-bg-color:          #{$ugm-navy-panel};
+  --gt-table-bg-color:         #{$ugm-navy-panel};
+  --gt-table-font-color:       #{$body-color};
+  --gt-table-font-color-light: #{$body-color};
+  --gt-column-labels-bg:       #{$ugm-navy-bg};
+  --gt-column-labels-color:    #{$ugm-gold};
+  --gt-body-border-top:        2px solid #{$ugm-gold-600};
+  --gt-body-border-bottom:     1px solid #{$ugm-gold-600};
+  --gt-border-color:           #{$light};
+  color: $body-color;
+}
+
+[data-bs-theme="dark"] div.gt_container table.gt_table,
+.quarto-dark div.gt_container table.gt_table {
+  background-color: $ugm-navy-panel !important;
+  border-top:    2px solid $ugm-gold-600 !important;
+  border-bottom: 1px solid $ugm-gold-600 !important;
+}
+
+[data-bs-theme="dark"] div.gt_container .gt_col_heading,
+[data-bs-theme="dark"] div.gt_container .gt_column_spanner_outer,
+[data-bs-theme="dark"] div.gt_container .gt_column_spanner,
+.quarto-dark div.gt_container .gt_col_heading,
+.quarto-dark div.gt_container .gt_column_spanner_outer,
+.quarto-dark div.gt_container .gt_column_spanner {
+  background-color: $ugm-navy-bg !important;
+  color:            $ugm-gold !important;
+  border-color:     $light !important;
+}
+
+[data-bs-theme="dark"] div.gt_container .gt_col_heading_row,
+[data-bs-theme="dark"] div.gt_container .gt_col_headings,
+.quarto-dark div.gt_container .gt_col_heading_row,
+.quarto-dark div.gt_container .gt_col_headings {
+  border-top-color:    $ugm-gold-600 !important;
+  border-bottom-color: $light !important;
+}
+
+/* ===== Download / Print button — dark mode ===== */
+.btn-outline-secondary {
+  color:        $ugm-gold !important;
+  border-color: $ugm-gold-600 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: $ugm-gold-100 !important;
+  color:            $ugm-gold !important;
 }
