@@ -23,6 +23,7 @@ language:
 
 
 book:
+  site-url: https://mtiugm.github.io/panduan_pmpsti
   title: "Buku Panduan Akademik PMPSTI"
   language: id
   author: "Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
